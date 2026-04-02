@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>À propos — Jérôme Chevalier, praticien à Manosque</title>
+  <meta name="description" content="Jérôme Chevalier, praticien en massage sensoriel à Manosque (04). 15 ans de méditation, une présence attentive et un toucher respectueux." />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3WCQTJPEBX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-3WCQTJPEBX');
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "surface":                   "#fcf9f4",
+            "surface-container-lowest":  "#ffffff",
+            "surface-container-low":     "#f6f3ee",
+            "surface-container":         "#f0ede8",
+            "surface-container-high":    "#eae7e2",
+            "surface-container-highest": "#e5e2dd",
+            "primary":                   "#883528",
+            "primary-container":         "#a64c3e",
+            "on-primary":                "#ffffff",
+            "secondary-fixed-dim":       "#f9ba76",
+            "on-surface":                "#1c1c19",
+            "on-surface-variant":        "#6b635d",
+          },
+          fontFamily: {
+            serif: ['"Noto Serif"', 'serif'],
+            sans:  ['Manrope', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background-color: #fcf9f4; color: #1c1c19; font-family: 'Manrope', sans-serif; }
+    .nav-glass { background: rgba(252,249,244,0.72); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); }
+    .btn-primary { background: linear-gradient(135deg, #883528 0%, #a64c3e 100%); }
+    .btn-tertiary { font-family: 'Noto Serif', serif; text-decoration: underline; text-decoration-color: #f9ba76; text-decoration-thickness: 3px; text-underline-offset: 4px; }
+    .section-v { padding-top: 8.5rem; padding-bottom: 8.5rem; }
+  </style>
+</head>
+
+<body>
+
+  <!-- ─── NAV ───────────────────────────────────────────────────── -->
+  <nav class="nav-glass fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 lg:px-20 py-4">
+    <a href="index.html"><img src="assets/images/logov3 fb.png" alt="Massage Sensoriel Manosque" class="h-11" /></a>
+    <ul class="hidden md:flex gap-8 lg:gap-10 list-none m-0 p-0">
+      <li><a href="index.html"    class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">Accueil</a></li>
+      <li><a href="pratique.html" class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">La pratique</a></li>
+      <li><a href="tarifs.html"   class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">Tarifs</a></li>
+      <li><a href="a-propos.html" class="text-xs tracking-widest uppercase text-primary font-medium">À propos</a></li>
+      <li><a href="atelier.html"  class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">Atelier</a></li>
+      <li><a href="contact.html"  class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">Contact</a></li>
+    </ul>
+    <button id="mobile-menu-btn" class="md:hidden text-on-surface p-1" aria-label="Menu">
+      <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 6h16M3 12h16M3 18h16"/></svg>
+    </button>
+  </nav>
+  <div id="mobile-menu" class="hidden fixed inset-0 z-40 nav-glass flex-col items-center justify-center gap-8">
+    <button id="mobile-menu-close" class="absolute top-6 right-6 text-on-surface p-1" aria-label="Fermer">
+      <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+    <a href="index.html"    class="text-sm tracking-widest uppercase text-on-surface-variant">Accueil</a>
+    <a href="pratique.html" class="text-sm tracking-widest uppercase text-on-surface-variant">La pratique</a>
+    <a href="tarifs.html"   class="text-sm tracking-widest uppercase text-on-surface-variant">Tarifs</a>
+    <a href="a-propos.html" class="text-sm tracking-widest uppercase text-primary">À propos</a>
+    <a href="atelier.html"  class="text-sm tracking-widest uppercase text-on-surface-variant">Atelier</a>
+    <a href="contact.html"  class="text-sm tracking-widest uppercase text-on-surface-variant">Contact</a>
+  </div>
+
+
+  <!-- ─── HERO PAGE ─────────────────────────────────────────────── -->
+  <section class="section-v bg-surface px-6 lg:px-20 pt-40 lg:pt-48">
+    <p class="text-xs tracking-widest uppercase text-on-surface-variant mb-10">À propos</p>
+    <h1 class="font-serif text-4xl lg:text-6xl text-on-surface leading-tight" style="letter-spacing: -0.02em; max-width: 14ch;">
+      Jérôme Chevalier
+    </h1>
+  </section>
+
+
+  <!-- ─── TEXTE + IMAGE ─────────────────────────────────────────── -->
+  <section class="section-v bg-surface-container-low px-6 lg:px-20">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start max-w-5xl">
+
+      <!-- Texte -->
+      <div class="text-base text-on-surface-variant leading-loose space-y-6">
+        <p>C'est lors de stages de danse que j'ai découvert le massage.</p>
+        <p>Je pratique le contact improvisation, une danse où les corps se touchent, se mêlent, avec beaucoup d'écoute et de respect. Je danse souvent les yeux fermés, en douceur, en pleine présence. Mes massages sont une danse consciente. Je masse comme je danse.</p>
+        <p>La méditation fait partie de ma vie depuis 15 ans. Elle nourrit cette qualité de présence que j'apporte à chaque instant du massage. Danse, méditation, massage : trois chemins vers le même endroit, le corps vivant, habité, présent.</p>
+        <p>Ma pratique s'est construite à partir de plusieurs traditions du toucher, dont le massage tantrique. Ce qui m'intéresse dans ces traditions, c'est leur rapport au corps comme espace vivant, à écouter, à respecter et à honorer plutôt qu'à traiter.</p>
+        <p>Beaucoup de personnes décrivent leur séance comme un état méditatif profond, sans avoir cherché à méditer.</p>
+      </div>
+
+      <!-- Image -->
+      <div class="overflow-hidden rounded-sm" style="height: clamp(280px, 45vw, 560px);">
+        <img src="assets/images/Massage nuque.avif" alt="" class="w-full h-full object-cover" />
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ─── TÉMOIGNAGE ────────────────────────────────────────────── -->
+  <section class="section-v bg-surface px-6 lg:px-20">
+    <div class="max-w-2xl" style="margin-left: clamp(0px, 8vw, 6rem);">
+      <p class="font-serif text-xl lg:text-2xl text-on-surface leading-relaxed" style="letter-spacing: -0.01em;">
+        "Rencontrer Jérôme ne laisse pas indifférent. Son écoute, sa douceur et la pétillance de son esprit comptent parmi ses qualités. Mais ce qui m'a le plus touché, c'est sa générosité, son enthousiasme et sa joie de vivre."
+      </p>
+      <p class="mt-8 text-sm text-on-surface-variant">Tommy · Manosque</p>
+    </div>
+  </section>
+
+
+  <!-- ─── CTA ───────────────────────────────────────────────────── -->
+  <section class="section-v bg-surface-container-low px-6 lg:px-20">
+    <div class="max-w-xl">
+      <h2 class="font-serif text-3xl lg:text-4xl text-on-surface leading-snug mb-12" style="letter-spacing: -0.02em;">
+        Venir à la rencontre<br/>de cette pratique.
+      </h2>
+      <div class="flex flex-wrap gap-6 items-center">
+        <a href="https://wa.me/33688987802" target="_blank" rel="noopener"
+           class="btn-primary inline-flex items-center gap-3 text-white text-sm font-medium px-7 py-3 rounded-sm hover:opacity-85 transition-opacity">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.116 1.524 5.843L0 24l6.34-1.498A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.663-.497-5.193-1.367l-.373-.22-3.865.914.977-3.773-.243-.387A9.94 9.94 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          Écrire sur WhatsApp
+        </a>
+        <a href="pratique.html" class="btn-tertiary text-on-surface text-sm">Découvrir la pratique</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ─── FOOTER ────────────────────────────────────────────────── -->
+  <footer class="bg-surface-container px-6 lg:px-20 py-16 lg:py-20">
+    <div class="flex flex-col lg:flex-row justify-between gap-12 lg:gap-20">
+      <div>
+        <img src="assets/images/logov3 fb.png" alt="Massage Sensoriel Manosque" class="h-10 mb-8" />
+        <p class="text-sm text-on-surface-variant leading-loose">Jérôme Chevalier<br/>Espace Mirabeau<br/>157 Espace Mirabeau, 04100 Manosque</p>
+        <a href="https://maps.google.com/?q=157+Espace+Mirabeau,+04100+Manosque" target="_blank" rel="noopener" class="mt-4 inline-block text-xs text-on-surface-variant hover:text-primary transition-colors btn-tertiary">Voir sur Google Maps</a>
+      </div>
+      <div>
+        <p class="text-xs tracking-widest uppercase text-on-surface-variant mb-6">Navigation</p>
+        <ul class="flex flex-col gap-4 list-none p-0 m-0">
+          <li><a href="index.html"    class="text-sm text-on-surface-variant hover:text-primary transition-colors">Accueil</a></li>
+          <li><a href="pratique.html" class="text-sm text-on-surface-variant hover:text-primary transition-colors">La pratique</a></li>
+          <li><a href="tarifs.html"   class="text-sm text-on-surface-variant hover:text-primary transition-colors">Tarifs</a></li>
+          <li><a href="a-propos.html" class="text-sm text-on-surface-variant hover:text-primary transition-colors">À propos</a></li>
+          <li><a href="atelier.html"  class="text-sm text-on-surface-variant hover:text-primary transition-colors">Atelier</a></li>
+          <li><a href="contact.html"  class="text-sm text-on-surface-variant hover:text-primary transition-colors">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-xs tracking-widest uppercase text-on-surface-variant mb-6">Rendez-vous</p>
+        <a href="https://wa.me/33688987802" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-2 text-white text-xs font-medium px-6 py-3 rounded-sm hover:opacity-85 transition-opacity">
+          <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.116 1.524 5.843L0 24l6.34-1.498A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.663-.497-5.193-1.367l-.373-.22-3.865.914.977-3.773-.243-.387A9.94 9.94 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          WhatsApp
+        </a>
+      </div>
+    </div>
+    <div class="mt-16 pt-8" style="border-top: 1px solid #e5e2dd;">
+      <p class="text-xs" style="color: rgba(107,99,93,0.45);">© 2026 Jérôme Chevalier · Massage Sensoriel Manosque</p>
+    </div>
+  </footer>
+
+  <script>
+    const mmb = document.getElementById('mobile-menu-btn');
+    const mm  = document.getElementById('mobile-menu');
+    const mmc = document.getElementById('mobile-menu-close');
+    mmb.addEventListener('click', () => { mm.classList.toggle('hidden'); mm.classList.toggle('flex'); });
+    mmc.addEventListener('click', () => { mm.classList.add('hidden'); mm.classList.remove('flex'); });
+  </script>
+
+</body>
+</html>

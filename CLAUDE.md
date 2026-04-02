@@ -35,6 +35,15 @@ Mise en forme visuelle uniquement (paragraphes, espacements, hiérarchie).
 
 ---
 
+## Google Analytics
+
+- **ID de mesure** : G-3WCQTJPEBX
+- **URL du flux** : https://massagesensoriel.fr
+- Intégrer le script Google Analytics sur toutes les pages du site
+- Placer la balise dans le `<head>` de chaque page
+
+---
+
 ## Style d'écriture (si Claude génère du texte sur demande explicite)
 
 #### Style global
@@ -44,6 +53,7 @@ Mise en forme visuelle uniquement (paragraphes, espacements, hiérarchie).
   ne jamais utiliser de superlatifs ("incroyable", "exceptionnel", "unique"…).
 - On doit sentir une vraie personne derrière le texte, présente et sincère.
 - L'objectif est de mettre en confiance, pas de convaincre.
+- Ne jamais utiliser de tiret dans les textes dus ite
 
 #### Voix et point de vue
 - Écrire en français.
@@ -252,13 +262,31 @@ Je me suis vraiment sentie vue/regardée, accueillie dans tout ce que je suis ! 
 
 ---
 
+## Formulaires
+
+- **Outil** : Tally (https://tally.so)
+- Formulaires intégrés au site via iframe
+
+**Formulaire 1 — Contact général**
+- Utilisé sur : page Contact (CTA secondaire) et accordéon sur toutes les pages
+- Champs : prénom, email, message
+- Intitulé du bouton d'ouverture : "Vous préférez écrire ?"
+- **URL iframe** : `https://tally.so/embed/EkDBBX?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1`
+
+**Formulaire 2 — Pré-inscription atelier**
+- Utilisé sur : page Atelier uniquement
+- Champs : prénom, email, "vous venez en couple ou en duo d'amies ?", message libre
+- Intitulé : "Je suis intéressée par l'atelier"
+- **URL iframe** : à fournir par Jérôme
+
+- En attendant les URLs : chaque emplacement est marqué par un commentaire HTML explicite et un placeholder visuel.
+- En attendant le formulaire 2 : placeholder `<!-- /// FORMULAIRE 2 — PRÉ-INSCRIPTION ATELIER (Tally) /// -->`
+
+---
+
 ## FAQ
 
 Format : accordéon (questions dépliables une par une)
-
-**Répartition par page :**
-- **Page Pratique** — FAQ 1, 2, 3, 4, 5, 6, 7, 8, 9, 15 (déroulement, corps, sensations)
-- **Page Tarifs** — FAQ 10, 11, 12, 13, 14, 16 (argent, logistique, annulation)
 
 **FAQ 1**
 Q : Est-ce que je dois me déshabiller ?
@@ -306,11 +334,11 @@ R : La séance est à 150 € pour 2h15 sur place. Elle comprend 20 minutes d'é
 
 **FAQ 12**
 Q : Comment prendre rendez-vous ?
-R : Il vous suffit de me contacter par WhatsApp. Je vous répondrai dans les meilleurs délais pour convenir d'une date ensemble.
+R : Il vous suffit de me contacter par WhatsApp. Je vous recontacterai pour un entretien téléphonique lorsque c'est votre premier massage sensoriel, avant de fixer une date de rdv.
 
 **FAQ 13**
 Q : Quels moyens de paiement acceptez-vous ?
-R : Je règle uniquement en espèces ou par chèque.
+R : Règlement uniquement en espèces ou par chèque.
 
 **FAQ 14**
 Q : Y a-t-il une salle d'attente ?
@@ -336,58 +364,6 @@ La formation : ma pratique s'est construite au fil de nombreuses années de form
 - Le formulaire de contact est toujours dans une section dépliante (accordéon), jamais en premier plan
 - Le nom Jérôme Chevalier apparaît en signature/sous-titre, pas dans le nom du site
 - Le mot "tantrique" n'apparaît qu'une seule fois sur tout le site, dans la page À propos
-
----
-
-## Images — Association par page
-
-Toutes les images sont dans `assets/images/`. Format AVIF et PNG/JPG, utilisables tels quels.
-
-| Page | Image | Emplacement |
-|---|---|---|
-| **Accueil** | `massage dos.png` | Hero — image principale plein écran |
-| **Accueil** | `Relaxation .avif` | Section milieu, accompagne le texte d'accroche |
-| **La pratique** | `massage dos 2.png` | Image principale de la page |
-| **La pratique** | `toucher epaule.avif` | Section secondaire (accompagne le texte de Jérôme) |
-| **La pratique** | `massage main.avif` | Bloc "Ce que vous apprenez / Ce que cela change" |
-| **Tarifs** | `table.png` | Image d'ambiance — la table vide, l'invitation |
-| **À propos** | `Massage nuque.avif` | Portrait ou image d'ambiance à côté du texte |
-| **Atelier** | `huile de massage.avif` | Image d'ambiance sensorielle |
-| **Contact** | aucune | Page épurée, pas d'image |
-
-### Logo
-- **Fond clair (usage principal)** : `logov3 fb.png` — dégradé terracotta/rosé, fond blanc, texte sombre. À utiliser dans la nav et sur toutes les pages à fond clair.
-- **Fond sombre (usage secondaire)** : `logov3 fn.png` — dégradé doré/cuivré sur fond noir. Réservé à un éventuel footer sombre ou overlay.
-- `logov3 fb fn.png` — fichier de présentation des deux versions, ne pas utiliser sur le site.
-- `logov1.jpg` / `logov2.jpg` — archives, ne pas utiliser.
-
-### Notes techniques
-- Format AVIF : support total sur tous les navigateurs modernes (Chrome, Firefox, Safari 16+, Edge). Pas de conversion nécessaire.
-- Les PNG/JPG existants peuvent être conservés tels quels.
-
----
-
-## Formulaires
-
-- **Outil** : Tally (https://tally.so)
-- Formulaires à créer sur Tally, intégrés au site via lien ou iframe
-
-**Formulaire 1 — Contact général**
-- Utilisé sur : page Contact (CTA secondaire) et accordéon sur toutes les pages
-- Champs : prénom, email, message
-- Intitulé du bouton d'ouverture : "Vous préférez écrire ?"
-
-**Formulaire 2 — Pré-inscription atelier**
-- Utilisé sur : page Atelier uniquement
-- Champs : prénom, email, "vous venez en couple ou en duo d'amies ?", message libre
-- Intitulé : "Je suis intéressée par l'atelier"
-
-- Les formulaires Tally sont à créer par Jérôme — Claude Code intègre les liens
-  ou iframes une fois les URLs Tally fournies par Jérôme.
-- **En attendant** : chaque emplacement de formulaire est marqué par un commentaire HTML
-  explicite et un placeholder visuel dans la page :
-  `<!-- /// FORMULAIRE 1 — CONTACT GÉNÉRAL (Tally) — remplacer ce bloc par l'iframe /// -->`
-  `<!-- /// FORMULAIRE 2 — PRÉ-INSCRIPTION ATELIER (Tally) — remplacer ce bloc par l'iframe /// -->`
 
 ---
 
@@ -458,15 +434,6 @@ Le fichier `DESIGN.md` à la racine est **la source de vérité** pour toutes le
 - **Espace vertical entre sections** : `8.5rem`
 - La nav flottante utilise le glassmorphism : `rgba(#fcf9f4, 0.70)` + `backdrop-filter: blur(24px)`
 - Les CTA primaires utilisent un gradient : `#883528` → `#a64c3e`
-
----
-
-## Déploiement
-
-- Code versionné sur **GitHub**
-- Un webhook GitHub notifie **Hostinger** à chaque push
-- Hostinger tire le code et déploie automatiquement
-- Pas de build step — les fichiers HTML/CSS sont servis directement
 
 ---
 

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarifs — Massage Sensoriel à Manosque | Jérôme Chevalier</title>
+  <meta name="description" content="Séance de massage sensoriel à Manosque — 150 € pour 2h15. Une seule formule, simple et complète. Espace Mirabeau (04)." />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3WCQTJPEBX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-3WCQTJPEBX');
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "surface":                   "#fcf9f4",
+            "surface-container-lowest":  "#ffffff",
+            "surface-container-low":     "#f6f3ee",
+            "surface-container":         "#f0ede8",
+            "surface-container-high":    "#eae7e2",
+            "surface-container-highest": "#e5e2dd",
+            "primary":                   "#883528",
+            "primary-container":         "#a64c3e",
+            "on-primary":                "#ffffff",
+            "secondary-fixed-dim":       "#f9ba76",
+            "on-surface":                "#1c1c19",
+            "on-surface-variant":        "#6b635d",
+          },
+          fontFamily: {
+            serif: ['"Noto Serif"', 'serif'],
+            sans:  ['Manrope', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background-color: #fcf9f4; color: #1c1c19; font-family: 'Manrope', sans-serif; }
+    .nav-glass { background: rgba(252,249,244,0.72); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); }
+    .btn-primary { background: linear-gradient(135deg, #883528 0%, #a64c3e 100%); }
+    .btn-tertiary { font-family: 'Noto Serif', serif; text-decoration: underline; text-decoration-color: #f9ba76; text-decoration-thickness: 3px; text-underline-offset: 4px; }
+    .section-v { padding-top: 8.5rem; padding-bottom: 8.5rem; }
+    .faq-body { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+    .faq-body.open { max-height: 500px; }
+  </style>
+</head>
+
+<body>
+
+  <!-- ─── NAV ───────────────────────────────────────────────────── -->
+  <nav class="nav-glass fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 lg:px-20 py-4">
+    <a href="index.html"><img src="assets/images/logov3 fb.png" alt="Massage Sensoriel Manosque" class="h-11" /></a>
+    <ul class="hidden md:flex gap-8 lg:gap-10 list-none m-0 p-0">
+      <li><a href="index.html"    class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">Accueil</a></li>
+      <li><a href="pratique.html" class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">La pratique</a></li>
+      <li><a href="tarifs.html"   class="text-xs tracking-widest uppercase text-primary font-medium">Tarifs</a></li>
+      <li><a href="a-propos.html" class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">À propos</a></li>
+      <li><a href="atelier.html"  class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">Atelier</a></li>
+      <li><a href="contact.html"  class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">Contact</a></li>
+    </ul>
+    <button id="mobile-menu-btn" class="md:hidden text-on-surface p-1" aria-label="Menu">
+      <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 6h16M3 12h16M3 18h16"/></svg>
+    </button>
+  </nav>
+  <div id="mobile-menu" class="hidden fixed inset-0 z-40 nav-glass flex-col items-center justify-center gap-8">
+    <button id="mobile-menu-close" class="absolute top-6 right-6 text-on-surface p-1" aria-label="Fermer">
+      <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+    <a href="index.html"    class="text-sm tracking-widest uppercase text-on-surface-variant">Accueil</a>
+    <a href="pratique.html" class="text-sm tracking-widest uppercase text-on-surface-variant">La pratique</a>
+    <a href="tarifs.html"   class="text-sm tracking-widest uppercase text-primary">Tarifs</a>
+    <a href="a-propos.html" class="text-sm tracking-widest uppercase text-on-surface-variant">À propos</a>
+    <a href="atelier.html"  class="text-sm tracking-widest uppercase text-on-surface-variant">Atelier</a>
+    <a href="contact.html"  class="text-sm tracking-widest uppercase text-on-surface-variant">Contact</a>
+  </div>
+
+
+  <!-- ─── HERO PAGE ─────────────────────────────────────────────── -->
+  <section class="section-v bg-surface px-6 lg:px-20 pt-40 lg:pt-48">
+    <p class="text-xs tracking-widest uppercase text-on-surface-variant mb-10">Tarifs</p>
+    <h1 class="font-serif text-4xl lg:text-6xl text-on-surface leading-tight" style="letter-spacing: -0.02em; max-width: 14ch;">
+      Une seule formule,<br/>simple et complète.
+    </h1>
+  </section>
+
+
+  <!-- ─── TABLE IMAGE ───────────────────────────────────────────── -->
+  <div style="height: clamp(180px, 32vw, 400px); overflow: hidden;">
+    <img src="assets/images/table.png" alt="" class="w-full h-full object-cover" />
+  </div>
+
+
+  <!-- ─── FORMULE ───────────────────────────────────────────────── -->
+  <section class="section-v bg-surface-container-low px-6 lg:px-20">
+    <p class="text-xs tracking-widest uppercase text-on-surface-variant mb-14">Massage Sensoriel sur Table</p>
+
+    <div class="max-w-xl">
+      <!-- Prix -->
+      <div class="flex items-baseline gap-4 mb-14">
+        <span class="font-serif text-6xl lg:text-7xl text-primary" style="letter-spacing: -0.03em;">150 €</span>
+        <span class="text-base text-on-surface-variant">pour 2h15 sur place</span>
+      </div>
+
+      <!-- Détail -->
+      <div class="space-y-8" style="padding-left: 1px;">
+        <div class="flex gap-6 items-start">
+          <span class="font-serif text-secondary-fixed-dim text-xl mt-0.5">·</span>
+          <p class="text-base text-on-surface-variant leading-loose">
+            20 minutes d'échange verbal avant le massage pour clarifier votre besoin du moment
+          </p>
+        </div>
+        <div class="flex gap-6 items-start">
+          <span class="font-serif text-secondary-fixed-dim text-xl mt-0.5">·</span>
+          <p class="text-base text-on-surface-variant leading-loose">
+            1h30 de massage
+          </p>
+        </div>
+        <div class="flex gap-6 items-start">
+          <span class="font-serif text-secondary-fixed-dim text-xl mt-0.5">·</span>
+          <p class="text-base text-on-surface-variant leading-loose">
+            20 minutes pour partager votre ressenti pendant la séance
+          </p>
+        </div>
+      </div>
+
+      <!-- Note 4 mains -->
+      <div class="mt-16 p-8 rounded-sm" style="background: #f0ede8; border: 1px solid rgba(218,193,184,0.25);">
+        <p class="text-sm text-on-surface-variant leading-loose">
+          Les massages Sensoriels 4 mains ou duo couple (masseur + masseuse) : nous contacter par téléphone pour les tarifs et nos disponibilités.
+        </p>
+        <a href="https://wa.me/33688987802" target="_blank" rel="noopener"
+           class="mt-6 inline-flex items-center gap-2 text-sm text-primary hover:opacity-75 transition-opacity btn-tertiary">
+          Nous contacter
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ─── FAQ ───────────────────────────────────────────────────── -->
+  <section class="section-v bg-surface px-6 lg:px-20">
+    <p class="text-xs tracking-widest uppercase text-on-surface-variant mb-14">Questions sur les tarifs</p>
+    <div class="max-w-2xl">
+
+      <div class="faq-item border-b" style="border-color: #e5e2dd;">
+        <button class="faq-btn w-full flex justify-between items-center py-6 text-left">
+          <span class="font-serif text-base text-on-surface pr-8" style="letter-spacing: -0.01em;">Quelle est la politique d'annulation ?</span>
+          <svg class="faq-icon flex-shrink-0 text-on-surface-variant transition-transform duration-300" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 6l4 4 4-4"/></svg>
+        </button>
+        <div class="faq-body"><p class="text-sm text-on-surface-variant leading-loose pb-6">Toute séance décommandée moins de 24h à l'avance est due.</p></div>
+      </div>
+
+      <div class="faq-item border-b" style="border-color: #e5e2dd;">
+        <button class="faq-btn w-full flex justify-between items-center py-6 text-left">
+          <span class="font-serif text-base text-on-surface pr-8" style="letter-spacing: -0.01em;">Combien coûte une séance et quelle est sa durée ?</span>
+          <svg class="faq-icon flex-shrink-0 text-on-surface-variant transition-transform duration-300" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 6l4 4 4-4"/></svg>
+        </button>
+        <div class="faq-body"><p class="text-sm text-on-surface-variant leading-loose pb-6">La séance est à 150 € pour 2h15 sur place. Elle comprend 20 minutes d'échange avant le massage, 1h30 de massage, et 20 minutes pour le temps d'intégration et le partage de ressenti.</p></div>
+      </div>
+
+      <div class="faq-item border-b" style="border-color: #e5e2dd;">
+        <button class="faq-btn w-full flex justify-between items-center py-6 text-left">
+          <span class="font-serif text-base text-on-surface pr-8" style="letter-spacing: -0.01em;">Comment prendre rendez-vous ?</span>
+          <svg class="faq-icon flex-shrink-0 text-on-surface-variant transition-transform duration-300" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 6l4 4 4-4"/></svg>
+        </button>
+        <div class="faq-body"><p class="text-sm text-on-surface-variant leading-loose pb-6">Il vous suffit de me contacter par WhatsApp. Je vous recontacterai pour un entretien téléphonique lorsque c'est votre premier massage sensoriel, avant de fixer une date de rdv.</p></div>
+      </div>
+
+      <div class="faq-item border-b" style="border-color: #e5e2dd;">
+        <button class="faq-btn w-full flex justify-between items-center py-6 text-left">
+          <span class="font-serif text-base text-on-surface pr-8" style="letter-spacing: -0.01em;">Quels moyens de paiement acceptez-vous ?</span>
+          <svg class="faq-icon flex-shrink-0 text-on-surface-variant transition-transform duration-300" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 6l4 4 4-4"/></svg>
+        </button>
+        <div class="faq-body"><p class="text-sm text-on-surface-variant leading-loose pb-6">Règlement uniquement en espèces ou par chèque.</p></div>
+      </div>
+
+      <div class="faq-item border-b" style="border-color: #e5e2dd;">
+        <button class="faq-btn w-full flex justify-between items-center py-6 text-left">
+          <span class="font-serif text-base text-on-surface pr-8" style="letter-spacing: -0.01em;">Y a-t-il une salle d'attente ?</span>
+          <svg class="faq-icon flex-shrink-0 text-on-surface-variant transition-transform duration-300" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 6l4 4 4-4"/></svg>
+        </button>
+        <div class="faq-body"><p class="text-sm text-on-surface-variant leading-loose pb-6">Oui, une salle d'attente calme et minimaliste est à votre disposition avant la séance.</p></div>
+      </div>
+
+      <div class="faq-item border-b" style="border-color: #e5e2dd;">
+        <button class="faq-btn w-full flex justify-between items-center py-6 text-left">
+          <span class="font-serif text-base text-on-surface pr-8" style="letter-spacing: -0.01em;">Pourquoi ce tarif ?</span>
+          <svg class="faq-icon flex-shrink-0 text-on-surface-variant transition-transform duration-300" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 6l4 4 4-4"/></svg>
+        </button>
+        <div class="faq-body">
+          <div class="text-sm text-on-surface-variant leading-loose pb-6 space-y-4">
+            <p>Le temps passé : pour chaque nouvelle cliente, je réalise un entretien téléphonique avant la première séance. La séance dure ensuite 2h15 sur place, sans compter le temps de préparation de l'espace.</p>
+            <p>L'investissement personnel : être pleinement présent pendant toute la séance demande une disponibilité totale, physique et intérieure.</p>
+            <p>L'accompagnement : de grosses émotions peuvent surgir. Je suis là pour accompagner ce qui se passe, avec douceur et sans jugement.</p>
+            <p>La formation : ma pratique s'est construite au fil de nombreuses années de formation et d'expérience.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ─── CTA ───────────────────────────────────────────────────── -->
+  <section class="section-v bg-surface-container-low px-6 lg:px-20">
+    <div class="max-w-xl">
+      <h2 class="font-serif text-3xl lg:text-4xl text-on-surface leading-snug mb-12" style="letter-spacing: -0.02em;">
+        Prête à prendre soin<br/>de vous ?
+      </h2>
+      <a href="https://wa.me/33688987802" target="_blank" rel="noopener"
+         class="btn-primary inline-flex items-center gap-3 text-white text-sm font-medium px-7 py-3 rounded-sm hover:opacity-85 transition-opacity">
+        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.116 1.524 5.843L0 24l6.34-1.498A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.663-.497-5.193-1.367l-.373-.22-3.865.914.977-3.773-.243-.387A9.94 9.94 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        Écrire sur WhatsApp
+      </a>
+    </div>
+  </section>
+
+
+  <!-- ─── FOOTER ────────────────────────────────────────────────── -->
+  <footer class="bg-surface-container px-6 lg:px-20 py-16 lg:py-20">
+    <div class="flex flex-col lg:flex-row justify-between gap-12 lg:gap-20">
+      <div>
+        <img src="assets/images/logov3 fb.png" alt="Massage Sensoriel Manosque" class="h-10 mb-8" />
+        <p class="text-sm text-on-surface-variant leading-loose">Jérôme Chevalier<br/>Espace Mirabeau<br/>157 Espace Mirabeau, 04100 Manosque</p>
+        <a href="https://maps.google.com/?q=157+Espace+Mirabeau,+04100+Manosque" target="_blank" rel="noopener" class="mt-4 inline-block text-xs text-on-surface-variant hover:text-primary transition-colors btn-tertiary">Voir sur Google Maps</a>
+      </div>
+      <div>
+        <p class="text-xs tracking-widest uppercase text-on-surface-variant mb-6">Navigation</p>
+        <ul class="flex flex-col gap-4 list-none p-0 m-0">
+          <li><a href="index.html"    class="text-sm text-on-surface-variant hover:text-primary transition-colors">Accueil</a></li>
+          <li><a href="pratique.html" class="text-sm text-on-surface-variant hover:text-primary transition-colors">La pratique</a></li>
+          <li><a href="tarifs.html"   class="text-sm text-on-surface-variant hover:text-primary transition-colors">Tarifs</a></li>
+          <li><a href="a-propos.html" class="text-sm text-on-surface-variant hover:text-primary transition-colors">À propos</a></li>
+          <li><a href="atelier.html"  class="text-sm text-on-surface-variant hover:text-primary transition-colors">Atelier</a></li>
+          <li><a href="contact.html"  class="text-sm text-on-surface-variant hover:text-primary transition-colors">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-xs tracking-widest uppercase text-on-surface-variant mb-6">Rendez-vous</p>
+        <a href="https://wa.me/33688987802" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-2 text-white text-xs font-medium px-6 py-3 rounded-sm hover:opacity-85 transition-opacity">
+          <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.116 1.524 5.843L0 24l6.34-1.498A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.663-.497-5.193-1.367l-.373-.22-3.865.914.977-3.773-.243-.387A9.94 9.94 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          WhatsApp
+        </a>
+      </div>
+    </div>
+    <div class="mt-16 pt-8" style="border-top: 1px solid #e5e2dd;">
+      <p class="text-xs" style="color: rgba(107,99,93,0.45);">© 2026 Jérôme Chevalier · Massage Sensoriel Manosque</p>
+    </div>
+  </footer>
+
+  <script>
+    const mmb = document.getElementById('mobile-menu-btn');
+    const mm  = document.getElementById('mobile-menu');
+    const mmc = document.getElementById('mobile-menu-close');
+    mmb.addEventListener('click', () => { mm.classList.toggle('hidden'); mm.classList.toggle('flex'); });
+    mmc.addEventListener('click', () => { mm.classList.add('hidden'); mm.classList.remove('flex'); });
+
+    document.querySelectorAll('.faq-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const body = btn.nextElementSibling;
+        const icon = btn.querySelector('.faq-icon');
+        const open = body.classList.toggle('open');
+        icon.style.transform = open ? 'rotate(180deg)' : 'rotate(0deg)';
+      });
+    });
+  </script>
+
+</body>
+</html>
