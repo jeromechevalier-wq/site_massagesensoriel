@@ -128,6 +128,34 @@ légèreté, calme, ajuster, toucher, intégrer, confiance.
 > Je vous remercie pour votre confiance.
 > Jerome -
 
+**Bloc "Ce que vous apprenez / Ce que cela change" — à intégrer sur la page Pratique**
+**Texte à utiliser tel quel, sans réécriture. Mise en forme visuelle uniquement.**
+**Format : deux colonnes côte à côte sur desktop, empilées sur mobile.**
+
+Ce que vous apprenez pendant une séance :
+
+Rester présente à vous et à vos sensations : ne plus fuir.
+
+Vous autoriser à ressentir et laisser vivre et s'exprimer vos émotions.
+
+Agir envers vous-même avec douceur, patience et tendresse.
+
+Faire l'expérience qu'un autre être humain peut vous écouter, vous soutenir,
+vous accompagner et respecter vos besoins et vos limites.
+
+Vous sentir en sécurité dans la réceptivité.
+
+
+Ce que cela peut changer dans votre vie :
+
+Revenir dans votre corps, vous sentir connectée à vous et en lien avec vous.
+
+Retrouver l'accès à vos sensations, à vos envies, à vos plaisirs, à votre désir.
+
+Vous sentir en sécurité dans la connexion physique avec d'autres êtres humains.
+
+Grandir dans l'écoute de votre corps, de vos sensations et de vos ressentis.
+
 ---
 
 ### `/tarifs` — Tarifs
