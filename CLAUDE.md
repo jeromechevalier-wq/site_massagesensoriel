@@ -423,6 +423,7 @@ Le fichier `DESIGN.md` à la racine est **la source de vérité** pour toutes le
 
 - **Titres** : `Noto Serif` (display, headline)
 - **Corps** : `Manrope` (title, body, label)
+- **Manuscrite** : `Pinyon Script` (section "Ce que la séance apporte" sur la page Pratique)
 - Chargées via Google Fonts CDN
 
 ### Règles absolues de design
@@ -441,7 +442,7 @@ Le fichier `DESIGN.md` à la racine est **la source de vérité** pour toutes le
 
 - HTML5 + CSS vanilla (variables CSS custom properties)
 - **Tailwind CSS** via CDN (`cdn.tailwindcss.com`) — pas de build step
-- Google Fonts (Noto Serif + Manrope)
+- Google Fonts (Noto Serif + Manrope + Pinyon Script)
 - Pas de JavaScript framework
 - Pas de bundler
 
