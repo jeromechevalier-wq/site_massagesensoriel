@@ -184,15 +184,11 @@ Une seule formule : **150 € — 2h15 sur place**
 - **Contrainte** : le mot "tantrique" n'apparaît qu'une seule fois, dans ce texte.
   Il ne doit pas être répété ailleurs sur le site.
 
-> Ma pratique s'est construite à partir de plusieurs traditions du toucher,
-> dont le massage tantrique. Ce qui m'intéresse dans ces traditions, c'est
-> leur rapport au corps comme espace vivant, à écouter, à respecter et à
-> honorer plutôt qu'à traiter.
-> La méditation fait partie de ma vie depuis 15 ans déjà. Elle nourrit ma
-> présence pendant les séances. Elle permet cette qualité d'attention
-> silencieuse que j'apporte à chaque instant du massage.
-> Beaucoup de personnes décrivent leur séance comme un état méditatif
-> profond, sans avoir cherché à méditer.
+C'est lors de stages de danse que j'ai découvert le massage.
+Je pratique le contact improvisation, une danse où les corps se touchent, se mêlent, avec beaucoup d'écoute et de respect. Je danse souvent les yeux fermés, en douceur, en pleine présence. Mes massages sont une danse consciente. Je masse comme je danse.
+La méditation fait partie de ma vie depuis 15 ans. Elle nourrit cette qualité de présence que j'apporte à chaque instant du massage. Danse, méditation, massage : trois chemins vers le même endroit, le corps vivant, habité, présent.
+Ma pratique s'est construite à partir de plusieurs traditions du toucher, dont le massage tantrique. Ce qui m'intéresse dans ces traditions, c'est leur rapport au corps comme espace vivant, à écouter, à respecter et à honorer plutôt qu'à traiter.
+Beaucoup de personnes décrivent leur séance comme un état méditatif profond, sans avoir cherché à méditer.
 
 ---
 
@@ -259,6 +255,10 @@ Je me suis vraiment sentie vue/regardée, accueillie dans tout ce que je suis ! 
 ## FAQ
 
 Format : accordéon (questions dépliables une par une)
+
+**Répartition par page :**
+- **Page Pratique** — FAQ 1, 2, 3, 4, 5, 6, 7, 8, 9, 15 (déroulement, corps, sensations)
+- **Page Tarifs** — FAQ 10, 11, 12, 13, 14, 16 (argent, logistique, annulation)
 
 **FAQ 1**
 Q : Est-ce que je dois me déshabiller ?
@@ -339,6 +339,58 @@ La formation : ma pratique s'est construite au fil de nombreuses années de form
 
 ---
 
+## Images — Association par page
+
+Toutes les images sont dans `assets/images/`. Format AVIF et PNG/JPG, utilisables tels quels.
+
+| Page | Image | Emplacement |
+|---|---|---|
+| **Accueil** | `massage dos.png` | Hero — image principale plein écran |
+| **Accueil** | `Relaxation .avif` | Section milieu, accompagne le texte d'accroche |
+| **La pratique** | `massage dos 2.png` | Image principale de la page |
+| **La pratique** | `toucher epaule.avif` | Section secondaire (accompagne le texte de Jérôme) |
+| **La pratique** | `massage main.avif` | Bloc "Ce que vous apprenez / Ce que cela change" |
+| **Tarifs** | `table.png` | Image d'ambiance — la table vide, l'invitation |
+| **À propos** | `Massage nuque.avif` | Portrait ou image d'ambiance à côté du texte |
+| **Atelier** | `huile de massage.avif` | Image d'ambiance sensorielle |
+| **Contact** | aucune | Page épurée, pas d'image |
+
+### Logo
+- **Fond clair (usage principal)** : `logov3 fb.png` — dégradé terracotta/rosé, fond blanc, texte sombre. À utiliser dans la nav et sur toutes les pages à fond clair.
+- **Fond sombre (usage secondaire)** : `logov3 fn.png` — dégradé doré/cuivré sur fond noir. Réservé à un éventuel footer sombre ou overlay.
+- `logov3 fb fn.png` — fichier de présentation des deux versions, ne pas utiliser sur le site.
+- `logov1.jpg` / `logov2.jpg` — archives, ne pas utiliser.
+
+### Notes techniques
+- Format AVIF : support total sur tous les navigateurs modernes (Chrome, Firefox, Safari 16+, Edge). Pas de conversion nécessaire.
+- Les PNG/JPG existants peuvent être conservés tels quels.
+
+---
+
+## Formulaires
+
+- **Outil** : Tally (https://tally.so)
+- Formulaires à créer sur Tally, intégrés au site via lien ou iframe
+
+**Formulaire 1 — Contact général**
+- Utilisé sur : page Contact (CTA secondaire) et accordéon sur toutes les pages
+- Champs : prénom, email, message
+- Intitulé du bouton d'ouverture : "Vous préférez écrire ?"
+
+**Formulaire 2 — Pré-inscription atelier**
+- Utilisé sur : page Atelier uniquement
+- Champs : prénom, email, "vous venez en couple ou en duo d'amies ?", message libre
+- Intitulé : "Je suis intéressée par l'atelier"
+
+- Les formulaires Tally sont à créer par Jérôme — Claude Code intègre les liens
+  ou iframes une fois les URLs Tally fournies par Jérôme.
+- **En attendant** : chaque emplacement de formulaire est marqué par un commentaire HTML
+  explicite et un placeholder visuel dans la page :
+  `<!-- /// FORMULAIRE 1 — CONTACT GÉNÉRAL (Tally) — remplacer ce bloc par l'iframe /// -->`
+  `<!-- /// FORMULAIRE 2 — PRÉ-INSCRIPTION ATELIER (Tally) — remplacer ce bloc par l'iframe /// -->`
+
+---
+
 ## SEO — Titres et méta-descriptions
 
 ### `/` — Accueil
@@ -409,6 +461,15 @@ Le fichier `DESIGN.md` à la racine est **la source de vérité** pour toutes le
 
 ---
 
+## Déploiement
+
+- Code versionné sur **GitHub**
+- Un webhook GitHub notifie **Hostinger** à chaque push
+- Hostinger tire le code et déploie automatiquement
+- Pas de build step — les fichiers HTML/CSS sont servis directement
+
+---
+
 ## Stack technique
 
 - HTML5 + CSS vanilla (variables CSS custom properties)
@@ -429,6 +490,7 @@ Le fichier `DESIGN.md` à la racine est **la source de vérité** pour toutes le
 - Ne pas ajouter de build system (Vite, Webpack) sans validation explicite
 - Ne pas créer de fichiers CSS séparés sauf si demandé
 - Ne pas "optimiser" l'espace blanc — le layout doit sembler lent et aéré intentionnellement
+- Ne jamais utiliser de tirets dans les textes du site.
 
 ## Structure du dépôt
 
