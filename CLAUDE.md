@@ -256,6 +256,79 @@ Je me suis vraiment sentie vue/regardée, accueillie dans tout ce que je suis ! 
 
 ---
 
+## FAQ
+
+Format : accordéon (questions dépliables une par une)
+
+**FAQ 1**
+Q : Est-ce que je dois me déshabiller ?
+R : Vous pouvez être nue ou garder vos sous-vêtements pour recevoir ce massage. Je garde mes vêtements pour vous masser.
+
+**FAQ 2**
+Q : Quelles parties du corps sont massées ?
+R : Le massage sensoriel est un massage à l'huile. Je masse tout le corps, à l'exception des organes génitaux et de l'anus.
+
+**FAQ 3**
+Q : Est-ce que le massage sensoriel est un massage érotique ou sexuel ?
+R : Non. Le massage sensoriel est un massage thérapeutique. Mes limites et mes choix sont clairs et non négociables : je ne masse pas le sexe.
+
+**FAQ 4**
+Q : Sur quoi se déroule le massage ?
+R : Le massage sensoriel est pratiqué à l'huile, sur une table de massage.
+
+**FAQ 5**
+Q : Que se passe-t-il avant le massage ?
+R : Nous commençons par 20 minutes d'échange verbal pour clarifier votre besoin du moment. Je vous présente le cadre et les limites de la séance, et je réponds à vos questions.
+
+**FAQ 6**
+Q : Que se passe-t-il après le massage ?
+R : À la fin de la séance, 20 minutes vous sont proposées : un temps calme pour revenir doucement à vous, puis pour partager votre ressenti si vous le souhaitez.
+
+**FAQ 7**
+Q : Est-ce que je peux avoir des questions avant de prendre rendez-vous ?
+R : Oui, bien sûr. Vous pouvez me contacter par WhatsApp. Je serai heureux de répondre à vos questions et de vérifier que la séance correspond à ce que vous recherchez.
+
+**FAQ 8**
+Q : Est-ce que je reste présente pendant le massage ou est-ce que je me laisse juste aller ?
+R : Vous ne serez pas passive pendant le massage. Vous serez invitée à vous relier à vos sensations, à être pleinement présente dans votre corps. Pendant la séance, vous pouvez me confirmer que tout va bien, ou me préciser le type de toucher dont vous avez besoin, afin que je puisse ajuster mon geste.
+
+**FAQ 9**
+Q : Est-ce que c'est normal d'avoir des appréhensions avant une première séance ?
+R : Oui, tout à fait. Ce n'est pas toujours facile de se faire masser. Je suis persuadé de savoir vous mettre à l'aise. Vous serez accueillie avec légèreté et simplicité.
+
+**FAQ 10**
+Q : Quelle est la politique d'annulation ?
+R : Toute séance décommandée moins de 24h à l'avance est due.
+
+**FAQ 11**
+Q : Combien coûte une séance et quelle est sa durée ?
+R : La séance est à 150 € pour 2h15 sur place. Elle comprend 20 minutes d'échange avant le massage, 1h30 de massage, et 20 minutes pour le temps d'intégration et le partage de ressenti.
+
+**FAQ 12**
+Q : Comment prendre rendez-vous ?
+R : Il vous suffit de me contacter par WhatsApp. Je vous répondrai dans les meilleurs délais pour convenir d'une date ensemble.
+
+**FAQ 13**
+Q : Quels moyens de paiement acceptez-vous ?
+R : Je règle uniquement en espèces ou par chèque.
+
+**FAQ 14**
+Q : Y a-t-il une salle d'attente ?
+R : Oui, une salle d'attente calme et minimaliste est à votre disposition avant la séance.
+
+**FAQ 15**
+Q : Le massage sensoriel aide-t-il à lâcher prise ?
+R : Oui. Le massage sensoriel fait circuler l'énergie dans le corps. Le toucher favorise cette circulation et relâche les tensions.
+
+**FAQ 16**
+Q : Pourquoi ce tarif ?
+R : Le temps passé : pour chaque nouvelle cliente, je réalise un entretien téléphonique avant la première séance. La séance dure ensuite 2h15 sur place, sans compter le temps de préparation de l'espace.
+L'investissement personnel : être pleinement présent pendant toute la séance demande une disponibilité totale, physique et intérieure.
+L'accompagnement : de grosses émotions peuvent surgir. Je suis là pour accompagner ce qui se passe, avec douceur et sans jugement.
+La formation : ma pratique s'est construite au fil de nombreuses années de formation et d'expérience.
+
+---
+
 ## Règles transversales
 
 - Les témoignages ne sont PAS sur une page dédiée — ils sont intégrés en carrousel dans les pages Accueil et/ou Pratique
