@@ -232,33 +232,40 @@ Beaucoup de personnes décrivent leur séance comme un état méditatif profond,
 - **Emplacement** : intégrés dans les pages Accueil et/ou Pratique — pas de page dédiée
 - **Statut** : temporaires, à remplacer par les vrais témoignages de Jérôme
 
-**Témoignage 1 — Tommy, Manosque**
+**Témoignage 1 — Tommy, Manosque & environs**
 Rencontrer Jérôme ne laisse pas indifférent. Son expérience de la vie, son écoute, sa douceur et la pétillance de son esprit et de son regard comptent indiscutablement parmi ses qualités. Mais ce qui m'a personnellement le plus touché, c'est sa générosité, son enthousiasme et sa joie de vivre ! Qui sont très entraînants !
 Je le recommande pour qui cherche un accompagnement joyeux et profond, audacieux et toujours respectueux, en dehors des sentiers battus et empli d'amour inconditionnel !
 
-**Témoignage 2 — Hervé, Manosque**
+**Témoignage 2 — Hervé, Manosque & environs**
 Quand vous rencontrez Jérôme pour la première fois, c'est son immense sourire que vous remarquez immédiatement.
 Son approche, très naturelle, vous met en confiance et vous aide à franchir le pas pour la découverte du massage sensoriel.
 Et derrière ce sourire se cache un cœur gros comme ça, qui achève de vous transporter dans sa magie.
 Merci Jérôme de m'accepter tel que je suis.
 
-**Témoignage 3 — Marie D., Manosque**
+**Témoignage 3 — Marie D., Manosque & environs**
 De la grâce, de la douceur et du respect. C'est ce que la mémoire de mon corps me rappelle avoir reçu du massage de Jérôme.
 Ce corps envers qui je suis souvent en colère et déçue qu'il ne réponde pas à mes attentes. Il se ferme, il grossit, il se coupe de ses sensations, il souffre alors que je fais tant pour lui…
 Entre les mains de Jérôme, mon corps s'est senti aimé, accueilli, respecté. Il s'est ouvert à recevoir la douceur et la grâce. Merci Jérôme pour ce cadeau.
 
-**Témoignage 4 — Frédérique, Manosque**
+**Témoignage 4 — Frédérique, Manosque & environs**
 Je voudrais te remercier du fond du cœur pour ton massage. Je suis convaincue que le massage que tu m'as prodigué a été un déclencheur.
 Merci merci merci, infiniment merci pour ce moment que tu m'as offert et pour ce que tu as permis. Ta douceur, ton accompagnement, ta présence pleine et sécurisante… Tu as élargi l'accès vers ce qui est encore coincé au fond de moi et m'empêche d'avancer. C'est un grand pas de plus sur mon chemin.
 
-**Témoignage 5 — Marie B., Manosque**
+**Témoignage 5 — Marie B., Manosque & environs**
 Merci Jérôme pour ce massage sensoriel. C'était la découverte pour moi.
 Je me suis sentie là où je devais être, en confiance et avec beaucoup de douceur. J'ai découvert des parcelles de mon corps qui n'avaient pas été massées depuis bien longtemps, des qui aiment ça et d'autres qui cachent bien leurs émotions.
 Cela m'a donné des pistes pour m'aimer, me comprendre et m'ouvrir davantage à celle que je suis. Je suis sortie de la séance avec le sourire, remplie d'amour et avec une grande envie de dire "Merci pour ce moment" !
 
-**Témoignage 6 — Laure, Manosque**
+**Témoignage 6 — Laure, Manosque & environs**
 Cher Jérôme ! Par ce témoignage j'aimerais te transmettre à quel point j'ai été touchée par ton massage sensoriel. Touchée à tellement de niveaux ! En fait, pour être très directe, je crois n'avoir jamais reçu un soin sensoriel avec autant de présence et d'amour !
 Je me suis vraiment sentie vue/regardée, accueillie dans tout ce que je suis ! Ton regard, ton sourire, la lumière qui se dégage de ton visage ! Et bien sûr ton toucher si doux, si enveloppant et généreux ! Je me suis vraiment sentie aimée et nourrie. Merci pour la qualité de ta présence !
+
+**Témoignage 7 — Anouk, Manosque & environs**
+Avis honnête de sa fille, franchement c'est tooop je me suis sentie trop bien super détendue vrm rien a redire masseur pro!!
+Foncez pour pouvoir y juger par vous même 🥳
+
+**Témoignage 8 — Chistel, Manosque & environs**
+Je n'ai plus de douleur à mon épaule, y'a plus rien. Le poignet s'est bien calmé aussi et les genous j'ai retrouvé mes petites douleurs mais ça c'est normal c'est du non stop 😂
 
 ---
 
@@ -354,6 +361,10 @@ R : Le temps passé : pour chaque nouvelle cliente, je réalise un entretien té
 L'investissement personnel : être pleinement présent pendant toute la séance demande une disponibilité totale, physique et intérieure.
 L'accompagnement : de grosses émotions peuvent surgir. Je suis là pour accompagner ce qui se passe, avec douceur et sans jugement.
 La formation : ma pratique s'est construite au fil de nombreuses années de formation et d'expérience.
+
+**FAQ 17**
+Q : Massez-vous à domicile ?
+R : Oui je masse aussi à domicile lorsque c'est nécessaire. Il faudra simplement une pièce calme et bien chauffée pour accueillir le massage dans les meilleurs conditions. Contactez-moi pour qu'on en discute.
 
 ---
 
