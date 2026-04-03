@@ -17,7 +17,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Manrope:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@1,400;1,500&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script id="tailwind-config">
     tailwind.config = {
@@ -55,7 +55,8 @@
     .section-v { padding-top: 8.5rem; padding-bottom: 8.5rem; }
     .accordion-body { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
     .accordion-body.open { max-height: 500px; }
-  </style>
+      .section-eyebrow { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: clamp(1.5rem, 2.5vw, 2rem); color: #1c1c19; background: linear-gradient(transparent 55%, rgba(249,186,118,0.45) 55%); line-height: 1.4; display: inline-block; }
+    </style>
 </head>
 
 <body>
@@ -90,7 +91,7 @@
 
   <!-- ─── HERO ──────────────────────────────────────────────────── -->
   <section class="section-v bg-surface px-6 lg:px-20 pt-40 lg:pt-48">
-    <p class="text-xs tracking-widest uppercase text-on-surface-variant mb-10">Contact</p>
+    <p class="section-eyebrow mb-10">Contact</p>
     <h1 class="font-serif text-4xl lg:text-6xl text-on-surface leading-tight" style="letter-spacing: -0.02em; max-width: 14ch;">
       Prenons le temps<br/>d'échanger.
     </h1>
@@ -100,7 +101,7 @@
   <!-- ─── WHATSAPP PRINCIPAL ────────────────────────────────────── -->
   <section class="section-v bg-surface-container-low px-6 lg:px-20">
     <div class="max-w-xl">
-      <p class="text-xs tracking-widest uppercase text-on-surface-variant mb-8">La façon la plus simple</p>
+      <p class="section-eyebrow mb-8">La façon la plus simple</p>
       <p class="text-base text-on-surface-variant leading-loose mb-12">
         Écrivez-moi sur WhatsApp. Je réponds dans les meilleurs délais pour répondre à vos questions ou convenir d'une date ensemble.
       </p>
@@ -135,7 +136,7 @@
   <!-- ─── ADRESSE ───────────────────────────────────────────────── -->
   <section class="section-v bg-surface px-6 lg:px-20">
     <div class="max-w-xl">
-      <p class="text-xs tracking-widest uppercase text-on-surface-variant mb-8">Adresse</p>
+      <p class="section-eyebrow mb-8">Adresse</p>
       <p class="font-serif text-2xl text-on-surface mb-8 leading-relaxed" style="letter-spacing: -0.01em;">
         Espace Mirabeau<br/>
         157 Espace Mirabeau<br/>

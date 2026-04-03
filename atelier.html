@@ -17,7 +17,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Manrope:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@1,400;1,500&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script id="tailwind-config">
     tailwind.config = {
@@ -53,7 +53,8 @@
     .btn-primary { background: linear-gradient(135deg, #883528 0%, #a64c3e 100%); }
     .btn-tertiary { font-family: 'Noto Serif', serif; text-decoration: underline; text-decoration-color: #f9ba76; text-decoration-thickness: 3px; text-underline-offset: 4px; }
     .section-v { padding-top: 8.5rem; padding-bottom: 8.5rem; }
-  </style>
+      .section-eyebrow { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: clamp(1.5rem, 2.5vw, 2rem); color: #1c1c19; background: linear-gradient(transparent 55%, rgba(249,186,118,0.45) 55%); line-height: 1.4; display: inline-block; }
+    </style>
 </head>
 
 <body>
@@ -104,7 +105,7 @@
   <!-- ─── DESCRIPTION ───────────────────────────────────────────── -->
   <section class="section-v bg-surface px-6 lg:px-20">
     <div class="max-w-2xl">
-      <p class="text-xs tracking-widest uppercase text-on-surface-variant mb-14">L'atelier</p>
+      <p class="section-eyebrow mb-14">L'atelier</p>
       <div class="text-base text-on-surface-variant leading-loose space-y-6">
         <p>Une soirée mensuelle, pour les couples et les duos d'amies.</p>
         <p>Ensemble, vous apprenez à vous toucher avec écoute et présence, guidés par Jérôme et Christel.</p>
@@ -117,7 +118,7 @@
 
   <!-- ─── CE QUE L'ON EXPLORE ───────────────────────────────────── -->
   <section class="section-v bg-surface-container-low px-6 lg:px-20">
-    <p class="text-xs tracking-widest uppercase text-on-surface-variant mb-14">Ce que l'on explore</p>
+    <p class="section-eyebrow mb-14">Ce que l'on explore</p>
     <div class="max-w-2xl space-y-8">
       <div class="flex gap-6 items-start">
         <span class="font-serif text-secondary-fixed-dim text-xl mt-0.5 flex-shrink-0">·</span>
@@ -139,7 +140,7 @@
 
     <!-- Format -->
     <div class="mt-16 max-w-lg p-8 rounded-sm" style="background: #f0ede8; border: 1px solid rgba(218,193,184,0.25);">
-      <p class="text-xs tracking-widest uppercase text-on-surface-variant mb-4">Format</p>
+      <p class="section-eyebrow mb-4">Format</p>
       <p class="text-sm text-on-surface-variant leading-loose">
         Soirée mensuelle · 4 à 6 couples ou duos d'amies<br/>
         Animé par Jérôme et Christel
