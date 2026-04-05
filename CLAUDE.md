@@ -370,10 +370,10 @@ R : Oui. Le massage sensoriel fait circuler l'énergie dans le corps. Le toucher
 
 **FAQ 16**
 Q : Pourquoi ce tarif ?
-R : Le temps passé : pour chaque nouvelle cliente, je réalise un entretien téléphonique avant la première séance. La séance dure ensuite 2h15 sur place, sans compter le temps de préparation de l'espace.
+R : Le temps passé : pour chaque nouvelle cliente, je réalise un entretien téléphonique avant la première séance. La séance dure ensuite 2h sur place, sans compter le temps de préparation de l'espace.
 L'investissement personnel : être pleinement présent pendant toute la séance demande une disponibilité totale, physique et intérieure.
 L'accompagnement : de grosses émotions peuvent surgir. Je suis là pour accompagner ce qui se passe, avec douceur et sans jugement.
-La formation : ma pratique s'est construite au fil de nombreuses années de formation et d'expérience.
+La formation : j'utilise cet argent pour continuer à m'offrir des formations de massage et pour financer mon projet de me former en Somatic Experience.
 
 **FAQ 17**
 Q : Massez-vous à domicile ?
