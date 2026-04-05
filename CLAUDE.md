@@ -91,7 +91,7 @@ légèreté, calme, ajuster, toucher, intégrer, confiance.
 1. Accueil (`/`)
 2. La pratique (`/pratique`)
 3. Tarifs (`/tarifs`)
-4. À propos (`/a-propos`)
+4. Qui suis-je ? (`/qui-suis-je`)
 5. Atelier (`/atelier`)
 6. Contact (`/contact`)
 
@@ -198,7 +198,7 @@ Une seule formule : **160 € — 2h sur place**
 
 ---
 
-### `/a-propos` — À propos
+### `/qui-suis-je` — Qui suis-je ?
 
 - **Objectif** : créer le lien humain, répondre à la question silencieuse "qui est cet homme ?"
 - Ton : intime et personnel — Jérôme parle de son chemin, pas d'une bio professionnelle
@@ -378,6 +378,10 @@ La formation : ma pratique s'est construite au fil de nombreuses années de form
 Q : Massez-vous à domicile ?
 R : Oui je masse aussi à domicile lorsque c'est nécessaire. Il faudra simplement une pièce calme et bien chauffée pour accueillir le massage dans les meilleurs conditions. Contactez-moi pour qu'on en discute.
 
+**FAQ 18**
+Q : Quand a lieu le paiement ?
+R : Pour les séances qui n'ont pas été payées en amont, le règlement se fait avant le massage, pour que votre moment de détente commence sans aucune préoccupation.
+
 ---
 
 ## Règles transversales
@@ -407,8 +411,8 @@ R : Oui je masse aussi à domicile lorsque c'est nécessaire. Il faudra simpleme
 - **Méta** : Séance de massage sensoriel à Manosque — 160 € pour 2h.
   Une seule formule, simple et complète. Espace Mirabeau (04).
 
-### `/a-propos` — À propos
-- **Titre** : À propos — Jérôme Chevalier, praticien à Manosque
+### `/qui-suis-je` — Qui suis-je ?
+- **Titre** : Qui suis-je ? — Jérôme Chevalier, praticien à Manosque
 - **Méta** : Jérôme Chevalier, praticien en massage sensoriel à Manosque (04).
   15 ans de méditation, une présence attentive et un toucher respectueux.
 
