@@ -117,6 +117,18 @@ légèreté, calme, ajuster, toucher, intégrer, confiance.
 > Le massage sensoriel apprend à revenir dans le corps, à apprécier nos sensations,
 > à retrouver de la confiance en soi et en l'autre.
 
+**Texte d'accroche — à utiliser tel quel, sans réécriture :**
+
+> Avez-vous parfois le sentiment d'être absente de votre corps, de votre vie, de vos envies ?
+> Avez-vous l'impression d'être le plus souvent dans votre tête ?
+>
+> Suite à certaines expériences de vie, beaucoup d'entre nous se dissocient de leur corps.
+> Ce mécanisme de protection nous aide à nous sentir moins touchées par ce qui est difficile…
+> mais il nous coupe aussi de notre capacité à ressentir et à être pleinement vivantes.
+>
+> Le massage sensoriel apprend à revenir dans le corps, à apprécier nos sensations,
+> à retrouver de la confiance en soi et en l'autre.
+
 ---
 
 ### `/pratique` — La pratique
@@ -382,7 +394,7 @@ R : Oui je masse aussi à domicile lorsque c'est nécessaire. Il faudra simpleme
 
 ### `/` — Accueil
 - **Titre** : Massage Sensoriel Manosque — Séance bien-être | Jérôme Chevalier
-- **Méta** : Massage sensoriel à Manosque (04). Séance individuelle de 2h15
+- **Méta** : Massage sensoriel à Manosque (04). Séance individuelle de 2h
   en toute confiance. Espace Mirabeau. Prenez rendez-vous via WhatsApp.
 
 ### `/pratique` — La pratique
@@ -392,7 +404,7 @@ R : Oui je masse aussi à domicile lorsque c'est nécessaire. Il faudra simpleme
 
 ### `/tarifs` — Tarifs
 - **Titre** : Tarifs — Massage Sensoriel à Manosque | Jérôme Chevalier
-- **Méta** : Séance de massage sensoriel à Manosque — 150 € pour 2h15.
+- **Méta** : Séance de massage sensoriel à Manosque — 160 € pour 2h.
   Une seule formule, simple et complète. Espace Mirabeau (04).
 
 ### `/a-propos` — À propos
