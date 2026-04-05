@@ -321,8 +321,8 @@ Q : Est-ce que le massage sensoriel est un massage érotique ou sexuel ?
 R : Non. Le massage sensoriel est un massage thérapeutique. Mes limites et mes choix sont clairs et non négociables : je ne masse pas le sexe.
 
 **FAQ 4**
-Q : Sur quoi se déroule le massage ?
-R : Le massage sensoriel est pratiqué à l'huile, sur une table de massage.
+Q : Est-ce un massage à l'huile ?
+R : Oui ce massage est pratiqué avec de l'huile légèrement chauffée.
 
 **FAQ 5**
 Q : Que se passe-t-il avant le massage ?
@@ -382,6 +382,10 @@ R : Oui je masse aussi à domicile lorsque c'est nécessaire. Il faudra simpleme
 **FAQ 18**
 Q : Quand a lieu le paiement ?
 R : Pour les séances qui n'ont pas été payées en amont, le règlement se fait avant le massage, pour que votre moment de détente commence sans aucune préoccupation.
+
+**FAQ 19**
+Q : Est-ce réservé aux femmes ?
+R : Oui et non. La prestation est effectivement conçue pour les femmes. C'est pour cela que tout le site utilise le genre féminin dans ses phrases. Toutefois les hommes à l'aise avec leur par féminine (leur Yin) sont les bienvenus.
 
 ---
 
