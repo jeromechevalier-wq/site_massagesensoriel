@@ -126,7 +126,7 @@
         <div class="flex gap-6 items-start">
           <span class="font-serif text-secondary-fixed-dim text-xl mt-0.5">·</span>
           <p class="text-base text-on-surface-variant leading-loose">
-            1h30 de massage
+            1h15 de massage
           </p>
         </div>
         <div class="flex gap-6 items-start">
@@ -169,7 +169,7 @@
           <span class="font-serif text-base text-on-surface pr-8" style="letter-spacing: -0.01em;">Combien coûte une séance et quelle est sa durée ?</span>
           <svg class="faq-icon flex-shrink-0 text-on-surface-variant transition-transform duration-300" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 6l4 4 4-4"/></svg>
         </button>
-        <div class="faq-body"><p class="text-sm text-on-surface-variant leading-loose pb-6">La séance est à 160 € pour 2h sur place. Elle comprend 20 minutes d'échange avant le massage, 1h30 de massage, et 20 minutes pour le temps d'intégration et le partage de ressenti.</p></div>
+        <div class="faq-body"><p class="text-sm text-on-surface-variant leading-loose pb-6">La séance est à 160 € pour 2h sur place. Elle comprend 20 minutes d'échange avant le massage, 1h15 de massage, et 20 minutes pour le temps d'intégration et le partage de ressenti.</p></div>
       </div>
 
       <div class="faq-item border-b" style="border-color: #e5e2dd;">
@@ -285,9 +285,14 @@
     mmc.addEventListener('click', () => { mm.classList.add('hidden'); mm.classList.remove('flex'); });
 
     document.querySelectorAll('.faq-btn').forEach(btn => {
+      const body = btn.nextElementSibling;
+      const icon = btn.querySelector('.faq-icon');
+
+      // Ouvrir tous les éléments FAQ au chargement
+      body.classList.add('open');
+      icon.style.transform = 'rotate(180deg)';
+
       btn.addEventListener('click', () => {
-        const body = btn.nextElementSibling;
-        const icon = btn.querySelector('.faq-icon');
         const open = body.classList.toggle('open');
         icon.style.transform = open ? 'rotate(180deg)' : 'rotate(0deg)';
       });

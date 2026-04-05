@@ -176,10 +176,10 @@ Grandir dans l'écoute de votre corps, de vos sensations et de vos ressentis.
 
 **Massage Sensoriel sur Table**
 
-Une seule formule : **150 € — 2h15 sur place**
+Une seule formule : **160 € — 2h sur place**
 
 - 20 minutes d'échange verbal avant le massage pour clarifier votre besoin du moment
-- 1h30 de massage
+- 1h15 de massage
 - 20 minutes pour partager votre ressenti pendant la séance
 
 **Les massages Sensoriels 4 mains ou duo couple (masseur + masseuse) : nous contacter par téléphone pour les tarifs et nos disponibilités.**
@@ -337,7 +337,7 @@ R : Toute séance décommandée moins de 24h à l'avance est due.
 
 **FAQ 11**
 Q : Combien coûte une séance et quelle est sa durée ?
-R : La séance est à 150 € pour 2h15 sur place. Elle comprend 20 minutes d'échange avant le massage, 1h30 de massage, et 20 minutes pour le temps d'intégration et le partage de ressenti.
+R : La séance est à 160 € pour 2h sur place. Elle comprend 20 minutes d'échange avant le massage, 1h15 de massage, et 20 minutes pour le temps d'intégration et le partage de ressenti.
 
 **FAQ 12**
 Q : Comment prendre rendez-vous ?

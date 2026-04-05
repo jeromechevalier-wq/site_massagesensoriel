@@ -354,9 +354,14 @@
     mmc.addEventListener('click', () => { mm.classList.add('hidden'); mm.classList.remove('flex'); });
 
     document.querySelectorAll('.faq-btn').forEach(btn => {
+      const body = btn.nextElementSibling;
+      const icon = btn.querySelector('.faq-icon');
+
+      // Ouvrir tous les éléments FAQ au chargement
+      body.classList.add('open');
+      icon.style.transform = 'rotate(180deg)';
+
       btn.addEventListener('click', () => {
-        const body = btn.nextElementSibling;
-        const icon = btn.querySelector('.faq-icon');
         const open = body.classList.toggle('open');
         icon.style.transform = open ? 'rotate(180deg)' : 'rotate(0deg)';
       });
