@@ -112,22 +112,10 @@
         Écrire sur WhatsApp
       </a>
 
-      <!-- Accordéon formulaire -->
-      <div class="mt-14">
-        <button id="accordion-btn" class="flex items-center gap-3 group">
-          <span class="btn-tertiary text-sm text-on-surface-variant group-hover:text-on-surface transition-colors">Vous préférez écrire ?</span>
-          <svg id="accordion-icon" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" class="text-on-surface-variant transition-transform duration-300">
-            <path d="M2 5l5 5 5-5"/>
-          </svg>
-        </button>
-
-        <div id="accordion-body" class="accordion-body">
-          <div class="mt-8">
-            <iframe src="https://tally.so/embed/EkDBBX?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-              loading="lazy" width="100%" height="300" frameborder="0" marginheight="0" marginwidth="0"
-              title="Formulaire de contact"></iframe>
-          </div>
-        </div>
+      <!-- Formulaire contact -->
+      <p class="section-eyebrow mt-14 mb-8">Vous pouvez aussi m'écrire un message ici :</p>
+      <div>
+        <iframe data-tally-src="https://tally.so/embed/EkDBBX?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="348" frameborder="0" marginheight="0" marginwidth="0" title="Contact Massage"></iframe>
       </div>
     </div>
   </section>
@@ -204,13 +192,7 @@
     mmb.addEventListener('click', () => { mm.classList.toggle('hidden'); mm.classList.toggle('flex'); });
     mmc.addEventListener('click', () => { mm.classList.add('hidden'); mm.classList.remove('flex'); });
 
-    const accordionBtn  = document.getElementById('accordion-btn');
-    const accordionBody = document.getElementById('accordion-body');
-    const accordionIcon = document.getElementById('accordion-icon');
-    accordionBtn.addEventListener('click', () => {
-      const open = accordionBody.classList.toggle('open');
-      accordionIcon.style.transform = open ? 'rotate(180deg)' : 'rotate(0deg)';
-    });
+    var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}
   </script>
 
 </body>

@@ -150,7 +150,7 @@ légèreté, calme, ajuster, toucher, intégrer, confiance.
 > Je vous remercie pour votre confiance.
 > Jerome -
 
-**Bloc "Ce que vous apprenez / Ce que cela change" — à intégrer sur la page Pratique**
+**Bloc "Ce que vous apprenez / Ce que cela change" — à intégrer sur la page Seance**
 **Texte à utiliser tel quel, sans réécriture. Mise en forme visuelle uniquement.**
 **Format : deux colonnes côte à côte sur desktop, empilées sur mobile.**
 
@@ -231,10 +231,11 @@ Beaucoup de personnes décrivent leur séance comme un état méditatif profond,
 ### `/contact` — Contact
 
 - **Objectif** : page de dernier recours pour ceux qui veulent un point de contact clair
-- **Contenu** : lien WhatsApp (CTA principal), section dépliante avec formulaire de contact (CTA secondaire)
+- **Contenu** : lien WhatsApp (CTA principal), formulaire de contact directement sur la page, adresse
 - **Adresse** : Espace Mirabeau, 157 Espace Mirabeau, 04100 Manosque
 - **Lien Google Maps** : https://maps.google.com/?q=157+Espace+Mirabeau,+04100+Manosque
 - **CTA WhatsApp** → https://wa.me/33688987802
+- **Formulaire contact** : iframe Tally intégrée directement (plus d'accordéon)
 
 ---
 
@@ -386,11 +387,11 @@ R : Pour les séances qui n'ont pas été payées en amont, le règlement se fai
 
 ## Règles transversales
 
-- Les témoignages ne sont PAS sur une page dédiée — ils sont intégrés en carrousel dans les pages Accueil et/ou Pratique
+- Les témoignages ne sont PAS sur une page dédiée — ils sont intégrés en carrousel dans les pages Accueil et/ou Seance
 - Le CTA WhatsApp (https://wa.me/33688987802) est présent sur toutes les pages (a minima en bas de page)
 - Le formulaire de contact est toujours dans une section dépliante (accordéon), jamais en premier plan
 - Le nom Jérôme Chevalier apparaît en signature/sous-titre, pas dans le nom du site
-- Le mot "tantrique" n'apparaît qu'une seule fois sur tout le site, dans la page À propos
+- Le mot "tantrique" n'apparaît qu'une seule fois sur tout le site, dans la page Qui suis-je
 
 ---
 
