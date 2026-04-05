@@ -387,6 +387,10 @@ R : Pour les séances qui n'ont pas été payées en amont, le règlement se fai
 Q : Est-ce réservé aux femmes ?
 R : Oui et non. La prestation est effectivement conçue pour les femmes. C'est pour cela que tout le site utilise le genre féminin dans ses phrases. Toutefois les hommes à l'aise avec leur par féminine (leur Yin) sont les bienvenus.
 
+**FAQ 20**
+Q : Pourquoi les massages durent 2h ?
+R : Je vous propose une espace ou vous aurez le temps de vous reconnecter pleinement à votre corps, à votre vitalité intérieure. Vous et votre corps méritez ce qu il y a de meilleur, et le meilleur c'est 2h de séance pour vous offrir le temps de voyager vers vous même.
+
 ---
 
 ## Règles transversales
