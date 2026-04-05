@@ -89,7 +89,7 @@ légèreté, calme, ajuster, toucher, intégrer, confiance.
 
 ### Structure de navigation (ordre du menu)
 1. Accueil (`/`)
-2. La séance (`/pratique`)
+2. La séance (`/seance`)
 3. Tarifs (`/tarifs`)
 4. Qui suis-je ? (`/qui-suis-je`)
 5. Atelier (`/atelier`)
@@ -131,7 +131,7 @@ légèreté, calme, ajuster, toucher, intégrer, confiance.
 
 ---
 
-### `/pratique` — La séance
+### `/seance` — La séance
 
 - **Objectif** : page prioritaire après l'accueil — expliquer l'approche, créer la confiance, susciter le désir
 - **Contenu** : description de La séance du massage sensoriel, valeurs, posture du praticien, ce à quoi s'attendre lors d'une séance
@@ -241,7 +241,7 @@ Beaucoup de personnes décrivent leur séance comme un état méditatif profond,
 ## Témoignages
 
 - **Format** : carrousel
-- **Emplacement** : intégrés dans les pages Accueil et/ou Pratique — pas de page dédiée
+- **Emplacement** : intégrés dans les pages Accueil et/ou La Séance — pas de page dédiée
 - **Statut** : temporaires, à remplacer par les vrais témoignages de Jérôme
 
 **Témoignage 1 — Tommy, Manosque & environs**
@@ -401,7 +401,7 @@ R : Pour les séances qui n'ont pas été payées en amont, le règlement se fai
 - **Méta** : Massage sensoriel à Manosque (04). Séance individuelle de 2h
   en toute confiance. Espace Mirabeau. Prenez rendez-vous via WhatsApp.
 
-### `/pratique` — La séance
+### `/seance` — La séance
 - **Titre** : La séance — Massage Sensoriel à Manosque | Jérôme Chevalier
 - **Méta** : Une séance de massage sensoriel à Manosque pour revenir à vos sensations,
   à votre rythme. Cadre bienveillant, écoute et présence. Espace Mirabeau (04).
