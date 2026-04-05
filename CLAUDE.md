@@ -89,7 +89,7 @@ légèreté, calme, ajuster, toucher, intégrer, confiance.
 
 ### Structure de navigation (ordre du menu)
 1. Accueil (`/`)
-2. La pratique (`/pratique`)
+2. La séance (`/pratique`)
 3. Tarifs (`/tarifs`)
 4. Qui suis-je ? (`/qui-suis-je`)
 5. Atelier (`/atelier`)
@@ -99,7 +99,7 @@ légèreté, calme, ajuster, toucher, intégrer, confiance.
 
 ### `/` — Accueil
 
-- **Objectif** : capter l'attention, installer l'univers, pousser vers "La pratique"
+- **Objectif** : capter l'attention, installer l'univers, pousser vers "La séance"
 - **Contenu** : accroche forte, courte description du massage sensoriel, carrousel de témoignages, CTA principal → WhatsApp
 - **CTA WhatsApp** : bouton visible → https://wa.me/33688987802
 - **CTA secondaire** : section dépliante (accordéon) "Vous préférez écrire ?" → formulaire de contact minimaliste
@@ -131,10 +131,10 @@ légèreté, calme, ajuster, toucher, intégrer, confiance.
 
 ---
 
-### `/pratique` — La pratique
+### `/pratique` — La séance
 
 - **Objectif** : page prioritaire après l'accueil — expliquer l'approche, créer la confiance, susciter le désir
-- **Contenu** : description de la pratique du massage sensoriel, valeurs, posture du praticien, ce à quoi s'attendre lors d'une séance
+- **Contenu** : description de La séance du massage sensoriel, valeurs, posture du praticien, ce à quoi s'attendre lors d'une séance
 - Témoignages intégrés (1 ou 2, extraits du carrousel)
 - CTA → Tarifs ou WhatsApp → https://wa.me/33688987802
 - **Texte fourni par Jérôme — à utiliser tel quel, sans réécriture, mise en forme visuelle uniquement.**
@@ -401,8 +401,8 @@ R : Pour les séances qui n'ont pas été payées en amont, le règlement se fai
 - **Méta** : Massage sensoriel à Manosque (04). Séance individuelle de 2h
   en toute confiance. Espace Mirabeau. Prenez rendez-vous via WhatsApp.
 
-### `/pratique` — La pratique
-- **Titre** : La pratique — Massage Sensoriel à Manosque | Jérôme Chevalier
+### `/pratique` — La séance
+- **Titre** : La séance — Massage Sensoriel à Manosque | Jérôme Chevalier
 - **Méta** : Une séance de massage sensoriel à Manosque pour revenir à vos sensations,
   à votre rythme. Cadre bienveillant, écoute et présence. Espace Mirabeau (04).
 
