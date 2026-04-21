@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Massage Sensoriel Manosque — Séance bien-être | Jérôme Chevalier</title>
+  <title>Massage Sensoriel Manosque — Séance bien-être | Jérôme Chevalier (DEMO MODERNE)</title>
   <meta name="description" content="Massage sensoriel à Manosque (04). Séance individuelle de 2h en toute confiance. Espace Mirabeau. Prenez rendez-vous via WhatsApp." />
 
   <!-- Google Analytics -->
@@ -55,29 +55,58 @@
 
     /* ─── ANIMATIONS ─────────────────── */
     @keyframes fadeInUp {
-      from { opacity: 0; transform: translateY(30px); }
-      to { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
+
     @keyframes fadeInLeft {
-      from { opacity: 0; transform: translateX(-30px); }
-      to { opacity: 1; transform: translateX(0); }
+      from {
+        opacity: 0;
+        transform: translateX(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
     }
+
     @keyframes fadeInRight {
-      from { opacity: 0; transform: translateX(30px); }
-      to { opacity: 1; transform: translateX(0); }
+      from {
+        opacity: 0;
+        transform: translateX(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
     }
+
     @keyframes slideDown {
-      from { opacity: 0; transform: translateY(-20px); }
-      to { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     .animate-on-scroll {
       opacity: 0;
       animation: fadeInUp 0.8s ease forwards;
     }
+
     .animate-on-scroll.left {
       animation: fadeInLeft 0.8s ease forwards;
     }
+
     .animate-on-scroll.right {
       animation: fadeInRight 0.8s ease forwards;
     }
@@ -96,6 +125,7 @@
       transition: all 0.3s ease;
       box-shadow: 0 4px 16px rgba(136,53,40,0.15);
     }
+
     .btn-primary:hover {
       transform: translateY(-2px);
       box-shadow: 0 8px 24px rgba(136,53,40,0.25);
@@ -110,13 +140,17 @@
       transition: all 0.3s ease;
       position: relative;
     }
+
     .btn-tertiary:hover {
       text-decoration-color: #883528;
       color: #883528;
     }
 
     /* ─── SECTIONS ───────────────────── */
-    .section-v { padding-top: 8.5rem; padding-bottom: 8.5rem; }
+    .section-v {
+      padding-top: 8.5rem;
+      padding-bottom: 8.5rem;
+    }
 
     .carousel-item { display: none; }
     .carousel-item.active { display: block; }
@@ -162,6 +196,7 @@
       position: relative;
       border: 1px solid rgba(218,193,184,0.2);
     }
+
     .testimonial-card:hover {
       transform: translateY(-8px);
       box-shadow: 0 16px 32px rgba(0,0,0,0.08);
@@ -172,9 +207,11 @@
     .image-overflow {
       overflow: visible;
     }
+
     .image-overflow img {
       transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
     }
+
     .image-overflow:hover img {
       transform: scale(1.02);
     }
@@ -184,6 +221,7 @@
       position: relative;
       overflow: hidden;
     }
+
     .parallax-img {
       transition: transform 0.1s ease-out;
     }
@@ -197,6 +235,7 @@
     .asymmetric-left {
       margin-left: clamp(0px, 8vw, 6rem);
     }
+
     .asymmetric-right {
       margin-right: clamp(0px, 8vw, 6rem);
     }
@@ -212,12 +251,12 @@
     </a>
 
     <ul class="hidden md:flex gap-8 lg:gap-10 list-none m-0 p-0">
-      <li><a href="index.html"      class="text-xs tracking-widest uppercase text-primary font-medium">Accueil</a></li>
-      <li><a href="seance.html"   class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">La séance</a></li>
-      <li><a href="tarifs.html"     class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">Tarifs</a></li>
-      <li><a href="qui-suis-je.html"   class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">Qui suis-je ?</a></li>
-      <li><a href="atelier.html"    class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">Atelier</a></li>
-      <li><a href="contact.html"    class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">Contact</a></li>
+      <li><a href="index.html" class="text-xs tracking-widest uppercase text-primary font-medium">Accueil</a></li>
+      <li><a href="seance.html" class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">La séance</a></li>
+      <li><a href="tarifs.html" class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">Tarifs</a></li>
+      <li><a href="qui-suis-je.html" class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">Qui suis-je ?</a></li>
+      <li><a href="atelier.html" class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">Atelier</a></li>
+      <li><a href="contact.html" class="text-xs tracking-widest uppercase text-on-surface-variant hover:text-primary transition-colors">Contact</a></li>
     </ul>
 
     <button id="mobile-menu-btn" class="md:hidden text-on-surface p-1" aria-label="Ouvrir le menu">
@@ -234,33 +273,31 @@
         <path d="M6 18L18 6M6 6l12 12"/>
       </svg>
     </button>
-    <a href="index.html"    class="text-sm tracking-widest uppercase text-primary">Accueil</a>
+    <a href="index.html" class="text-sm tracking-widest uppercase text-primary">Accueil</a>
     <a href="seance.html" class="text-sm tracking-widest uppercase text-on-surface-variant">La séance</a>
-    <a href="tarifs.html"   class="text-sm tracking-widest uppercase text-on-surface-variant">Tarifs</a>
+    <a href="tarifs.html" class="text-sm tracking-widest uppercase text-on-surface-variant">Tarifs</a>
     <a href="qui-suis-je.html" class="text-sm tracking-widest uppercase text-on-surface-variant">Qui suis-je ?</a>
-    <a href="atelier.html"  class="text-sm tracking-widest uppercase text-on-surface-variant">Atelier</a>
-    <a href="contact.html"  class="text-sm tracking-widest uppercase text-on-surface-variant">Contact</a>
+    <a href="atelier.html" class="text-sm tracking-widest uppercase text-on-surface-variant">Atelier</a>
+    <a href="contact.html" class="text-sm tracking-widest uppercase text-on-surface-variant">Contact</a>
   </div>
-
 
   <!-- ─── HERO ──────────────────────────────────────────────────── -->
   <section class="relative min-h-screen flex items-end overflow-hidden">
     <div class="absolute inset-0">
-      <img src="assets/images/massage dos.png" alt="" class="w-full h-full object-cover object-center" />
+      <img src="assets/images/massage dos.png" alt="" class="parallax-img w-full h-full object-cover object-center" />
       <div class="absolute inset-0" style="background: linear-gradient(to right, rgba(20,12,10,0.78) 0%, rgba(20,12,10,0.38) 55%, rgba(20,12,10,0.08) 100%);"></div>
     </div>
 
     <div class="relative z-10 px-6 lg:px-20 pb-20 lg:pb-32 w-full max-w-3xl">
-      <p class="text-xs tracking-widest uppercase mb-8" style="color: rgba(249,186,118,0.85);">Massage Sensoriel · Manosque</p>
-      <h1 class="font-serif text-5xl lg:text-7xl text-white leading-tight" style="letter-spacing: -0.02em;">
+      <p class="text-xs tracking-widest uppercase mb-8" style="color: rgba(249,186,118,0.85); animation: fadeInUp 0.8s ease 0.2s forwards; opacity: 0;">Massage Sensoriel · Manosque</p>
+      <h1 class="font-serif text-5xl lg:text-7xl text-white leading-tight" style="letter-spacing: -0.02em; animation: slideDown 0.8s ease 0.3s forwards; opacity: 0;">
         Revenir<br/>dans son corps.
       </h1>
-      <p class="mt-8 text-base text-white/65 max-w-xs" style="margin-left: clamp(0px, 6vw, 4rem);">
+      <p class="mt-8 text-base text-white/65 max-w-xs asymmetric-left" style="animation: fadeInLeft 0.8s ease 0.4s forwards; opacity: 0;">
         Un espace pour ressentir, à votre rythme.
       </p>
-      <div class="mt-10 flex flex-wrap gap-6 items-center" style="margin-left: clamp(0px, 6vw, 4rem);">
-        <a href="https://wa.me/33688987802" target="_blank" rel="noopener"
-           class="btn-primary inline-flex items-center gap-3 text-white text-sm font-medium px-7 py-3 rounded-sm hover:opacity-85 transition-opacity">
+      <div class="mt-10 flex flex-wrap gap-6 items-center asymmetric-left" style="animation: fadeInUp 0.8s ease 0.5s forwards; opacity: 0;">
+        <a href="https://wa.me/33688987802" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 text-white text-sm font-medium px-7 py-3 rounded-sm">
           <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.116 1.524 5.843L0 24l6.34-1.498A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.663-.497-5.193-1.367l-.373-.22-3.865.914.977-3.773-.243-.387A9.94 9.94 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
           </svg>
@@ -271,17 +308,16 @@
     </div>
   </section>
 
-
   <!-- ─── ACCROCHE ──────────────────────────────────────────────── -->
   <section class="section-v bg-surface px-6 lg:px-20">
-    <div class="max-w-2xl">
+    <div class="max-w-2xl animate-on-scroll">
       <div class="font-serif text-2xl lg:text-3xl text-on-surface leading-relaxed" style="letter-spacing: -0.01em;">
         <p>Avez-vous parfois le sentiment d'être absente de votre corps, de votre vie, de vos envies ?</p>
         <p class="mt-6">Avez-vous l'impression d'être le plus souvent dans votre tête ?</p>
       </div>
     </div>
 
-    <div class="mt-14 max-w-lg" style="margin-left: clamp(0px, 8vw, 6rem);">
+    <div class="mt-14 max-w-lg asymmetric-left animate-on-scroll left">
       <p class="text-base text-on-surface-variant leading-loose">
         Suite à certaines expériences de vie, parfois nous nous éloignons de notre corps.
         C'est un réflexe intelligent. Il nous protège de ce qui blesse.
@@ -299,95 +335,69 @@
     </div>
   </section>
 
-
   <!-- ─── IMAGE AMBIANCE ────────────────────────────────────────── -->
-  <div class="bg-surface-container-low overflow-hidden" style="height: clamp(200px, 40vw, 480px);">
-    <img src="assets/images/Relaxation .avif" alt="" class="w-full h-full object-cover" />
+  <div class="bg-surface-container-low overflow-hidden image-overflow" style="height: clamp(200px, 40vw, 480px); margin: 2rem -2rem 0 -2rem;">
+    <img src="assets/images/Relaxation .avif" alt="" class="w-full h-full object-cover" style="margin: 0;" />
   </div>
-
 
   <!-- ─── PHRASE CLÉ ────────────────────────────────────────────── -->
   <section class="section-v bg-surface-container px-6 lg:px-20">
-    <div class="max-w-2xl">
+    <div class="max-w-2xl animate-on-scroll right">
       <p class="font-serif text-2xl lg:text-3xl text-on-surface leading-relaxed" style="letter-spacing: -0.01em;">
         "Vous ne serez pas passive durant le massage : vous serez invitée à être pleinement présente dans votre corps."
       </p>
-      <p class="mt-8 text-sm text-on-surface-variant tracking-wide">Jérôme -</p>
+      <p class="mt-8 text-sm text-on-surface-variant tracking-wide">Jérôme</p>
     </div>
   </section>
 
-
   <!-- ─── TÉMOIGNAGES ───────────────────────────────────────────── -->
   <section class="section-v bg-surface px-6 lg:px-20">
-    <p class="section-eyebrow mb-16">Ce qu'elles en disent</p>
+    <p class="section-eyebrow mb-16 animate-on-scroll">Ce qu'elles en disent</p>
 
     <div class="max-w-2xl">
-
       <div class="carousel-item active">
-        <p class="font-serif text-xl lg:text-2xl text-on-surface leading-relaxed" style="letter-spacing: -0.01em;">
-          "De la grâce, de la douceur et du respect. C'est ce que la mémoire de mon corps me rappelle avoir reçu du massage de Jérôme.
-          Entre les mains de Jérôme, mon corps s'est senti aimé, accueilli, respecté."
-        </p>
-        <p class="mt-8 text-sm text-on-surface-variant">Marie D. · Manosque & environs</p>
+        <div class="testimonial-card animate-on-scroll">
+          <p class="font-serif text-xl lg:text-2xl text-on-surface leading-relaxed" style="letter-spacing: -0.01em;">
+            "De la grâce, de la douceur et du respect. C'est ce que la mémoire de mon corps me rappelle avoir reçu du massage de Jérôme.
+            Entre les mains de Jérôme, mon corps s'est senti aimé, accueilli, respecté."
+          </p>
+          <p class="mt-8 text-sm text-on-surface-variant">Marie D. · Manosque & environs</p>
+        </div>
       </div>
 
       <div class="carousel-item">
-        <p class="font-serif text-xl lg:text-2xl text-on-surface leading-relaxed" style="letter-spacing: -0.01em;">
-          "Je voudrais te remercier du fond du cœur pour ton massage. Ta douceur, ton accompagnement, ta présence pleine et sécurisante…
-          C'est un grand pas de plus sur mon chemin."
-        </p>
-        <p class="mt-8 text-sm text-on-surface-variant">Frédérique · Manosque & environs</p>
+        <div class="testimonial-card animate-on-scroll">
+          <p class="font-serif text-xl lg:text-2xl text-on-surface leading-relaxed" style="letter-spacing: -0.01em;">
+            "Je voudrais te remercier du fond du cœur pour ton massage. Ta douceur, ton accompagnement, ta présence pleine et sécurisante…
+            C'est un grand pas de plus sur mon chemin."
+          </p>
+          <p class="mt-8 text-sm text-on-surface-variant">Frédérique · Manosque & environs</p>
+        </div>
       </div>
 
       <div class="carousel-item">
-        <p class="font-serif text-xl lg:text-2xl text-on-surface leading-relaxed" style="letter-spacing: -0.01em;">
-          "Je me suis vraiment sentie vue, accueillie dans tout ce que je suis. Ton toucher si doux, si enveloppant et généreux.
-          Merci pour la qualité de ta présence."
-        </p>
-        <p class="mt-8 text-sm text-on-surface-variant">Laure · Manosque & environs</p>
+        <div class="testimonial-card animate-on-scroll">
+          <p class="font-serif text-xl lg:text-2xl text-on-surface leading-relaxed" style="letter-spacing: -0.01em;">
+            "Je me suis vraiment sentie vue, accueillie dans tout ce que je suis. Ton toucher si doux, si enveloppant et généreux.
+            Merci pour la qualité de ta présence."
+          </p>
+          <p class="mt-8 text-sm text-on-surface-variant">Laure · Manosque & environs</p>
+        </div>
       </div>
 
       <div class="carousel-item">
-        <p class="font-serif text-xl lg:text-2xl text-on-surface leading-relaxed" style="letter-spacing: -0.01em;">
-          "Je me suis sentie là où je devais être, en confiance et avec beaucoup de douceur.
-          Je suis sortie de la séance avec le sourire, remplie d'amour."
-        </p>
-        <p class="mt-8 text-sm text-on-surface-variant">Marie B. · Manosque & environs</p>
-      </div>
-
-      <div class="carousel-item">
-        <p class="font-serif text-xl lg:text-2xl text-on-surface leading-relaxed" style="letter-spacing: -0.01em;">
-          "Son écoute, sa douceur et la pétillance de son esprit comptent indiscutablement parmi ses qualités.
-          Un accompagnement joyeux et profond, audacieux et toujours respectueux."
-        </p>
-        <p class="mt-8 text-sm text-on-surface-variant">Tommy · Manosque & environs</p>
-      </div>
-
-      <div class="carousel-item">
-        <p class="font-serif text-xl lg:text-2xl text-on-surface leading-relaxed" style="letter-spacing: -0.01em;">
-          "Son approche, très naturelle, vous met en confiance et vous aide à franchir le pas.
-          Derrière ce sourire se cache un cœur gros comme ça, qui achève de vous transporter dans sa magie."
-        </p>
-        <p class="mt-8 text-sm text-on-surface-variant">Hervé · Manosque & environs</p>
-      </div>
-
-      <div class="carousel-item">
-        <p class="font-serif text-xl lg:text-2xl text-on-surface leading-relaxed" style="letter-spacing: -0.01em;">
-          "Franchement c'est tooop je me suis sentie trop bien super détendue vrm rien a redire masseur pro !! Foncez pour pouvoir y juger par vous même."
-        </p>
-        <p class="mt-8 text-sm text-on-surface-variant">Anouk · Manosque & environs</p>
-      </div>
-
-      <div class="carousel-item">
-        <p class="font-serif text-xl lg:text-2xl text-on-surface leading-relaxed" style="letter-spacing: -0.01em;">
-          "Je n'ai plus de douleur à mon épaule, y'a plus rien. Le poignet s'est bien calmé aussi."
-        </p>
-        <p class="mt-8 text-sm text-on-surface-variant">Christel · Manosque & environs</p>
+        <div class="testimonial-card animate-on-scroll">
+          <p class="font-serif text-xl lg:text-2xl text-on-surface leading-relaxed" style="letter-spacing: -0.01em;">
+            "Je me suis sentie là où je devais être, en confiance et avec beaucoup de douceur.
+            Je suis sortie de la séance avec le sourire, remplie d'amour."
+          </p>
+          <p class="mt-8 text-sm text-on-surface-variant">Marie B. · Manosque & environs</p>
+        </div>
       </div>
 
       <!-- Contrôles -->
       <div class="flex items-center gap-8 mt-16">
-        <button id="prev-btn" class="text-on-surface-variant hover:text-primary transition-colors" aria-label="Précédent">
+        <button id="prev-btn" class="text-on-surface-variant hover:text-primary transition-colors transform hover:scale-110 duration-300" aria-label="Précédent">
           <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M18 6l-8 8 8 8"/>
           </svg>
@@ -397,12 +407,8 @@
           <button class="carousel-dot w-1.5 h-1.5 rounded-full transition-all" data-index="1"></button>
           <button class="carousel-dot w-1.5 h-1.5 rounded-full transition-all" data-index="2"></button>
           <button class="carousel-dot w-1.5 h-1.5 rounded-full transition-all" data-index="3"></button>
-          <button class="carousel-dot w-1.5 h-1.5 rounded-full transition-all" data-index="4"></button>
-          <button class="carousel-dot w-1.5 h-1.5 rounded-full transition-all" data-index="5"></button>
-          <button class="carousel-dot w-1.5 h-1.5 rounded-full transition-all" data-index="6"></button>
-          <button class="carousel-dot w-1.5 h-1.5 rounded-full transition-all" data-index="7"></button>
         </div>
-        <button id="next-btn" class="text-on-surface-variant hover:text-primary transition-colors" aria-label="Suivant">
+        <button id="next-btn" class="text-on-surface-variant hover:text-primary transition-colors transform hover:scale-110 duration-300" aria-label="Suivant">
           <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M10 6l8 8-8 8"/>
           </svg>
@@ -411,17 +417,15 @@
     </div>
   </section>
 
-
   <!-- ─── CTA RENDEZ-VOUS ───────────────────────────────────────── -->
   <section class="section-v bg-surface-container-low px-6 lg:px-20">
-    <div class="max-w-xl">
+    <div class="max-w-xl animate-on-scroll">
       <p class="section-eyebrow mb-8">Prendre rendez-vous</p>
       <h2 class="font-serif text-3xl lg:text-4xl text-on-surface leading-snug mb-14" style="letter-spacing: -0.02em;">
         Prendre le temps<br/>de revenir à soi.
       </h2>
 
-      <a href="https://wa.me/33688987802" target="_blank" rel="noopener"
-         class="btn-primary inline-flex items-center gap-3 text-white text-sm font-medium px-8 py-4 rounded-sm hover:opacity-85 transition-opacity">
+      <a href="https://wa.me/33688987802" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-3 text-white text-sm font-medium px-8 py-4 rounded-sm">
         <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.116 1.524 5.843L0 24l6.34-1.498A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.663-.497-5.193-1.367l-.373-.22-3.865.914.977-3.773-.243-.387A9.94 9.94 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
         </svg>
@@ -448,11 +452,9 @@
     </div>
   </section>
 
-
   <!-- ─── FOOTER ────────────────────────────────────────────────── -->
   <footer class="bg-surface-container px-6 lg:px-20 py-16 lg:py-20">
     <div class="flex flex-col lg:flex-row justify-between gap-12 lg:gap-20">
-
       <div>
         <img src="assets/images/logov4_fb_removebg.png" alt="Massage Sensoriel Manosque" class="h-10 mb-8" />
         <p class="text-sm text-on-surface-variant leading-loose">
@@ -471,39 +473,36 @@
       <div>
         <p class="text-xs tracking-widest uppercase text-on-surface-variant mb-6">Navigation</p>
         <ul class="flex flex-col gap-4 list-none p-0 m-0">
-          <li><a href="index.html"    class="text-sm text-on-surface-variant hover:text-primary transition-colors">Accueil</a></li>
+          <li><a href="index.html" class="text-sm text-on-surface-variant hover:text-primary transition-colors">Accueil</a></li>
           <li><a href="seance.html" class="text-sm text-on-surface-variant hover:text-primary transition-colors">La séance</a></li>
-          <li><a href="tarifs.html"   class="text-sm text-on-surface-variant hover:text-primary transition-colors">Tarifs</a></li>
+          <li><a href="tarifs.html" class="text-sm text-on-surface-variant hover:text-primary transition-colors">Tarifs</a></li>
           <li><a href="qui-suis-je.html" class="text-sm text-on-surface-variant hover:text-primary transition-colors">Qui suis-je ?</a></li>
-          <li><a href="atelier.html"  class="text-sm text-on-surface-variant hover:text-primary transition-colors">Atelier</a></li>
-          <li><a href="contact.html"  class="text-sm text-on-surface-variant hover:text-primary transition-colors">Contact</a></li>
+          <li><a href="atelier.html" class="text-sm text-on-surface-variant hover:text-primary transition-colors">Atelier</a></li>
+          <li><a href="contact.html" class="text-sm text-on-surface-variant hover:text-primary transition-colors">Contact</a></li>
         </ul>
       </div>
 
       <div>
         <p class="text-xs tracking-widest uppercase text-on-surface-variant mb-6">Rendez-vous</p>
-        <a href="https://wa.me/33688987802" target="_blank" rel="noopener"
-           class="btn-primary inline-flex items-center gap-2 text-white text-xs font-medium px-6 py-3 rounded-sm hover:opacity-85 transition-opacity">
+        <a href="https://wa.me/33688987802" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-2 text-white text-xs font-medium px-6 py-3 rounded-sm">
           <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.116 1.524 5.843L0 24l6.34-1.498A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.663-.497-5.193-1.367l-.373-.22-3.865.914.977-3.773-.243-.387A9.94 9.94 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
           </svg>
           WhatsApp
         </a>
       </div>
-
     </div>
 
     <div class="mt-16 pt-8" style="border-top: 1px solid #e5e2dd;">
-      <p class="text-xs" style="color: rgba(107,99,93,0.45);">© 2026 Jérôme C. · Massage Sensoriel Manosque</p>
+      <p class="text-xs" style="color: rgba(107,99,93,0.45);">© 2026 Jérôme C. · Massage Sensoriel Manosque (DEMO MODERNE)</p>
     </div>
   </footer>
-
 
   <!-- ─── JS ────────────────────────────────────────────────────── -->
   <script>
     // ── Mobile menu
-    const mobileMenuBtn   = document.getElementById('mobile-menu-btn');
-    const mobileMenu      = document.getElementById('mobile-menu');
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
     const mobileMenuClose = document.getElementById('mobile-menu-close');
 
     mobileMenuBtn.addEventListener('click', () => {
@@ -524,7 +523,7 @@
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.style.animationDelay = '0s';
+          entry.target.style.animationDelay = `0s`;
           entry.target.classList.add('animate-on-scroll');
           observer.unobserve(entry.target);
         }
@@ -547,12 +546,12 @@
     // ── Carousel
     let current = 0;
     const items = document.querySelectorAll('.carousel-item');
-    const dots  = document.querySelectorAll('.carousel-dot');
+    const dots = document.querySelectorAll('.carousel-dot');
 
     function updateDots() {
       dots.forEach((d, i) => {
         d.style.backgroundColor = i === current ? '#883528' : '#e5e2dd';
-        d.style.width  = i === current ? '1.25rem' : '0.375rem';
+        d.style.width = i === current ? '1.25rem' : '0.375rem';
       });
     }
 
@@ -570,7 +569,7 @@
     updateDots();
 
     // ── Accordéon
-    const accordionBtn  = document.getElementById('accordion-btn');
+    const accordionBtn = document.getElementById('accordion-btn');
     const accordionBody = document.getElementById('accordion-body');
     const accordionIcon = document.getElementById('accordion-icon');
 

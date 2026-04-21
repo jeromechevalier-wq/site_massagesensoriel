@@ -49,14 +49,133 @@
   <style>
     html { scroll-behavior: smooth; }
     body { background-color: #fcf9f4; color: #1c1c19; font-family: 'Manrope', sans-serif; }
-    .nav-glass { background: rgba(252,249,244,0.72); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); }
-    .btn-primary { background: linear-gradient(135deg, #883528 0%, #a64c3e 100%); }
-    .btn-tertiary { font-family: 'Noto Serif', serif; text-decoration: underline; text-decoration-color: #f9ba76; text-decoration-thickness: 3px; text-underline-offset: 4px; }
+
+    /* ─── ANIMATIONS ─────────────────── */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInLeft {
+      from { opacity: 0; transform: translateX(-30px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes fadeInRight {
+      from { opacity: 0; transform: translateX(30px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .animate-on-scroll {
+      opacity: 0;
+      animation: fadeInUp 0.8s ease forwards;
+    }
+    .animate-on-scroll.left {
+      animation: fadeInLeft 0.8s ease forwards;
+    }
+    .animate-on-scroll.right {
+      animation: fadeInRight 0.8s ease forwards;
+    }
+
+    /* ─── NAV ────────────────────────── */
+    .nav-glass {
+      background: rgba(252,249,244,0.92);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      box-shadow: 0 2px 16px rgba(28,28,25,0.04);
+    }
+
+    /* ─── BUTTONS ─────────────────────── */
+    .btn-primary {
+      background: linear-gradient(135deg, #883528 0%, #a64c3e 100%);
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 16px rgba(136,53,40,0.15);
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(136,53,40,0.25);
+    }
+
+    .btn-tertiary {
+      font-family: 'Noto Serif', serif;
+      text-decoration: underline;
+      text-decoration-color: #f9ba76;
+      text-decoration-thickness: 3px;
+      text-underline-offset: 4px;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+    .btn-tertiary:hover {
+      text-decoration-color: #883528;
+      color: #883528;
+    }
+
+    /* ─── SECTIONS ───────────────────── */
     .section-v { padding-top: 8.5rem; padding-bottom: 8.5rem; }
+
     .faq-body { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
     .faq-body.open { max-height: 500px; }
-      .section-eyebrow { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: clamp(1.5rem, 2.5vw, 2rem); color: #1c1c19; background: linear-gradient(transparent 55%, rgba(249,186,118,0.45) 55%); line-height: 1.4; display: inline-block; }
-    </style>
+
+    .section-eyebrow {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: clamp(1.5rem, 2.5vw, 2rem);
+      color: #1c1c19;
+      background: linear-gradient(transparent 55%, rgba(249,186,118,0.45) 55%);
+      line-height: 1.4;
+      display: inline-block;
+    }
+
+    /* ─── TESTIMONIAL CARDS ──────────── */
+    .testimonial-card {
+      background: #f6f3ee;
+      border-radius: 8px;
+      padding: 2rem;
+      transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
+      position: relative;
+      border: 1px solid rgba(218,193,184,0.2);
+    }
+    .testimonial-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 16px 32px rgba(0,0,0,0.08);
+      border-color: rgba(218,193,184,0.4);
+    }
+
+    /* ─── IMAGE EFFECTS ──────────────── */
+    .image-overflow {
+      overflow: visible;
+    }
+    .image-overflow img {
+      transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .image-overflow:hover img {
+      transform: scale(1.02);
+    }
+
+    /* ─── PARALLAX ───────────────────── */
+    .parallax {
+      position: relative;
+      overflow: hidden;
+    }
+    .parallax-img {
+      transition: transform 0.1s ease-out;
+    }
+
+    /* ─── TEXT ANIMATIONS ────────────── */
+    h1, h2, .section-eyebrow {
+      animation: slideDown 0.8s ease forwards;
+    }
+
+    /* ─── ASYMMETRY ─────────────────── */
+    .asymmetric-left {
+      margin-left: clamp(0px, 8vw, 6rem);
+    }
+    .asymmetric-right {
+      margin-right: clamp(0px, 8vw, 6rem);
+    }
+  </style>
 </head>
 
 <body>
@@ -106,7 +225,7 @@
 
   <!-- ─── FORMULE ───────────────────────────────────────────────── -->
   <section class="section-v bg-surface-container-low px-6 lg:px-20">
-    <p class="section-eyebrow mb-14">Massage Sensoriel sur Table</p>
+    <p class="section-eyebrow mb-14">Massage Sensoriel au sol</p>
 
     <div class="max-w-xl">
       <!-- Prix -->
@@ -280,12 +399,43 @@
   </footer>
 
   <script>
+    // ── Mobile menu
     const mmb = document.getElementById('mobile-menu-btn');
     const mm  = document.getElementById('mobile-menu');
     const mmc = document.getElementById('mobile-menu-close');
     mmb.addEventListener('click', () => { mm.classList.toggle('hidden'); mm.classList.toggle('flex'); });
     mmc.addEventListener('click', () => { mm.classList.add('hidden'); mm.classList.remove('flex'); });
 
+    // ── Scroll Animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.animationDelay = '0s';
+          entry.target.classList.add('animate-on-scroll');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.animate-on-scroll').forEach(el => {
+      observer.observe(el);
+    });
+
+    // ── Parallax Effect
+    window.addEventListener('scroll', () => {
+      const parallaxElements = document.querySelectorAll('.parallax-img');
+      parallaxElements.forEach(el => {
+        const scrollPosition = window.pageYOffset;
+        el.style.transform = `translateY(${scrollPosition * 0.5}px)`;
+      });
+    });
+
+    // ── FAQ Accordion
     document.querySelectorAll('.faq-btn').forEach(btn => {
       const body = btn.nextElementSibling;
       const icon = btn.querySelector('.faq-icon');
