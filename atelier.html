@@ -208,7 +208,7 @@
   <!-- ─── HERO ──────────────────────────────────────────────────── -->
   <section class="relative overflow-hidden" style="min-height: 55vh; display: flex; align-items: flex-end;">
     <div class="absolute inset-0">
-      <img src="assets/images/huile de massage.avif" alt="" class="w-full h-full object-cover" />
+      <img src="assets/images/huile de massage.avif" alt="" class="parallax-img w-full h-full object-cover" />
       <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(20,12,10,0.75) 0%, rgba(20,12,10,0.20) 60%, rgba(20,12,10,0.05) 100%);"></div>
     </div>
     <div class="relative z-10 px-6 lg:px-20 pb-16 lg:pb-24">
@@ -338,21 +338,23 @@
     // ── Scroll Animations
     const observerOptions = {
       threshold: 0.1,
-      rootMargin: '0px 0px -50px 0px'
+      rootMargin: '0px 0px -100px 0px'
     };
 
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.style.animationDelay = '0s';
           entry.target.classList.add('animate-on-scroll');
           observer.unobserve(entry.target);
         }
       });
     }, observerOptions);
 
-    document.querySelectorAll('.animate-on-scroll').forEach(el => {
-      observer.observe(el);
+    // Observe all sections, cards, and key content elements
+    document.querySelectorAll('section, .testimonial-card, .carousel-item.active').forEach(el => {
+      if (!el.classList.contains('animate-on-scroll')) {
+        observer.observe(el);
+      }
     });
 
     // ── Parallax Effect

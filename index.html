@@ -246,7 +246,7 @@
   <!-- ─── HERO ──────────────────────────────────────────────────── -->
   <section class="relative min-h-screen flex items-end overflow-hidden">
     <div class="absolute inset-0">
-      <img src="assets/images/massage dos.png" alt="" class="w-full h-full object-cover object-center" />
+      <img src="assets/images/massage dos.png" alt="" class="parallax-img w-full h-full object-cover object-center" />
       <div class="absolute inset-0" style="background: linear-gradient(to right, rgba(20,12,10,0.78) 0%, rgba(20,12,10,0.38) 55%, rgba(20,12,10,0.08) 100%);"></div>
     </div>
 
@@ -369,13 +369,6 @@
           Derrière ce sourire se cache un cœur gros comme ça, qui achève de vous transporter dans sa magie."
         </p>
         <p class="mt-8 text-sm text-on-surface-variant">Hervé · Manosque & environs</p>
-      </div>
-
-      <div class="carousel-item">
-        <p class="font-serif text-xl lg:text-2xl text-on-surface leading-relaxed" style="letter-spacing: -0.01em;">
-          "Franchement c'est tooop je me suis sentie trop bien super détendue vrm rien a redire masseur pro !! Foncez pour pouvoir y juger par vous même."
-        </p>
-        <p class="mt-8 text-sm text-on-surface-variant">Anouk · Manosque & environs</p>
       </div>
 
       <div class="carousel-item">
@@ -518,21 +511,23 @@
     // ── Scroll Animations
     const observerOptions = {
       threshold: 0.1,
-      rootMargin: '0px 0px -50px 0px'
+      rootMargin: '0px 0px -100px 0px'
     };
 
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.style.animationDelay = '0s';
           entry.target.classList.add('animate-on-scroll');
           observer.unobserve(entry.target);
         }
       });
     }, observerOptions);
 
-    document.querySelectorAll('.animate-on-scroll').forEach(el => {
-      observer.observe(el);
+    // Observe all sections, cards, and key content elements
+    document.querySelectorAll('section, .testimonial-card, .carousel-item.active').forEach(el => {
+      if (!el.classList.contains('animate-on-scroll')) {
+        observer.observe(el);
+      }
     });
 
     // ── Parallax Effect

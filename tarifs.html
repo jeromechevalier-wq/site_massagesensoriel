@@ -219,7 +219,7 @@
 
   <!-- ─── TABLE IMAGE ───────────────────────────────────────────── -->
   <div style="height: clamp(180px, 32vw, 400px); overflow: hidden;">
-    <img src="assets/images/table.png" alt="" class="w-full h-full object-cover" />
+    <img src="assets/images/table.png" alt="" class="parallax-img w-full h-full object-cover" />
   </div>
 
 
@@ -263,7 +263,7 @@
         </p>
         <a href="https://wa.me/33688987802" target="_blank" rel="noopener"
            class="mt-6 inline-flex items-center gap-2 text-sm text-primary hover:opacity-75 transition-opacity btn-tertiary">
-          Nous contacter
+          Me contacter
         </a>
       </div>
     </div>
@@ -409,21 +409,23 @@
     // ── Scroll Animations
     const observerOptions = {
       threshold: 0.1,
-      rootMargin: '0px 0px -50px 0px'
+      rootMargin: '0px 0px -100px 0px'
     };
 
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.style.animationDelay = '0s';
           entry.target.classList.add('animate-on-scroll');
           observer.unobserve(entry.target);
         }
       });
     }, observerOptions);
 
-    document.querySelectorAll('.animate-on-scroll').forEach(el => {
-      observer.observe(el);
+    // Observe all sections, cards, and key content elements
+    document.querySelectorAll('section, .testimonial-card, .carousel-item.active').forEach(el => {
+      if (!el.classList.contains('animate-on-scroll')) {
+        observer.observe(el);
+      }
     });
 
     // ── Parallax Effect
